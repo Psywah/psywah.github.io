@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oral/Poster Presentations on Shihua Gong&#39;s Homepage</title>
+    <link>https://psywah.github.io/talk/</link>
+    <description>Recent content in Oral/Poster Presentations on Shihua Gong&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Shihua Gong</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/talk/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>An Analysis of Nonlinear Elimination Preconditioned Newton&#39;s method</title>
+      <link>https://psywah.github.io/talk/2018pp/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://psywah.github.io/talk/2018pp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Nonlinear Elimination Preconditioned Newton’s Method for Hyperelasticity</title>
+      <link>https://psywah.github.io/talk/2017petsc/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://psywah.github.io/talk/2017petsc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Robust Multilevel Solver for a New Hybridizable Mixed Discretization of Linear Elasticity</title>
+      <link>https://psywah.github.io/talk/2017copper/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://psywah.github.io/talk/2017copper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Hybridizable Mixed Finite Element Method for Planar Linear Elasticity</title>
+      <link>https://psywah.github.io/talk/2015iciam/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0800</pubDate>
+      
+      <guid>https://psywah.github.io/talk/2015iciam/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
