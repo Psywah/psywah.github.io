@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Shihua Gong&#39;s Homepage</title>
-    <link>www.shihua-gong.org/publication/</link>
+    <link>http://shihua-gong.org/publication/</link>
     <description>Recent content in Publications on Shihua Gong&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Shihua Gong</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="www.shihua-gong.org/publication/" rel="self" type="application/rss+xml" />
+    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>A Nonlinear Elimination Preconditioned Newton&#39;s Method with Applications in Arterial Wall Simulation</title>
-      <link>www.shihua-gong.org/publication/2017-gong-cai-ne/</link>
+      <link>http://shihua-gong.org/publication/2017-gong-cai-ne/</link>
       <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>www.shihua-gong.org/publication/2017-gong-cai-ne/</guid>
+      <guid>http://shihua-gong.org/publication/2017-gong-cai-ne/</guid>
       <description></description>
     </item>
     
     <item>
       <title>New Hybridized Mixed Methods for Linear Elasticity and Optimal Multilevel Solvers</title>
-      <link>www.shihua-gong.org/publication/2017-gong-wu-xu-hyrbid/</link>
+      <link>http://shihua-gong.org/publication/2017-gong-wu-xu-hyrbid/</link>
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>www.shihua-gong.org/publication/2017-gong-wu-xu-hyrbid/</guid>
+      <guid>http://shihua-gong.org/publication/2017-gong-wu-xu-hyrbid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Interior Penalty Mixed Finite Element Methods of Any Order in Any Dimension for Linear Elasticity with Strongly Symmetric Stress Tensor</title>
-      <link>www.shihua-gong.org/publication/2017-wu-gong-xu-nonconforming/</link>
+      <link>http://shihua-gong.org/publication/2017-wu-gong-xu-nonconforming/</link>
       <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>www.shihua-gong.org/publication/2017-wu-gong-xu-nonconforming/</guid>
+      <guid>http://shihua-gong.org/publication/2017-wu-gong-xu-nonconforming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A mathematical model of aortic aneurysm formation</title>
-      <link>www.shihua-gong.org/publication/2017-hao-gong-wu-anurysm/</link>
+      <link>http://shihua-gong.org/publication/2017-hao-gong-wu-anurysm/</link>
       <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>www.shihua-gong.org/publication/2017-hao-gong-wu-anurysm/</guid>
+      <guid>http://shihua-gong.org/publication/2017-hao-gong-wu-anurysm/</guid>
       <description></description>
     </item>
     
