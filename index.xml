@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title> A Nonlinear Elimination Preconditioned Inexact Newton Method for Heterogeneous Hyperelasticity</title>
+      <link>http://shihua-gong.org/publication/2018-gong-cai-homogeneous/</link>
+      <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://shihua-gong.org/publication/2018-gong-cai-homogeneous/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>An Analysis of Nonlinear Elimination Preconditioned Newton&#39;s method</title>
       <link>http://shihua-gong.org/talk/2018pp/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0800</pubDate>
@@ -1141,15 +1150,6 @@ y &amp;amp;=&amp;amp; 1+1   \\\\\\
 \end{eqnarray}$$
 &lt;/code&gt;&lt;/pre&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>A Hybridizable Mixed Finite Element Method for Planar Linear Elasticity</title>
-      <link>http://shihua-gong.org/talk/2015iciam/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0800</pubDate>
-      
-      <guid>http://shihua-gong.org/talk/2015iciam/</guid>
-      <description></description>
     </item>
     
   </channel>
