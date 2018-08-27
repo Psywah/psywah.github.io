@@ -6,14 +6,14 @@
     <description>Recent content in Gallery on Shihua Gong&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Shihua Gong</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
+    <copyright>&amp;copy; 2018 Shihua Gong</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Getting started with the Academic framework for Hugo</title>
       <link>http://shihua-gong.org/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>http://shihua-gong.org/post/getting-started/</guid>
       <description>
@@ -289,7 +289,7 @@ $ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
     <item>
       <title>Customizing the homepage with widgets</title>
       <link>http://shihua-gong.org/post/widgets/</link>
-      <pubDate>Tue, 19 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Tue, 19 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>http://shihua-gong.org/post/widgets/</guid>
       <description>
@@ -357,7 +357,7 @@ $ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
     <item>
       <title>Managing content</title>
       <link>http://shihua-gong.org/post/managing-content/</link>
-      <pubDate>Mon, 18 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 18 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>http://shihua-gong.org/post/managing-content/</guid>
       <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, news/blog articles, and widget pages. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;http://shihua-gong.org/post/writing-markdown-latex/&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;
@@ -587,7 +587,7 @@ widgets = true
     <item>
       <title>Writing content with Markdown, LaTeX, and Shortcodes</title>
       <link>http://shihua-gong.org/post/writing-markdown-latex/</link>
-      <pubDate>Sun, 17 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 17 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>http://shihua-gong.org/post/writing-markdown-latex/</guid>
       <description>&lt;p&gt;Content can be written using &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34;&gt;Markdown&lt;/a&gt;, &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34;&gt;LaTeX math&lt;/a&gt;, and &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34;&gt;Hugo Shortcodes&lt;/a&gt;. Additionally, HTML may be used for advanced formatting. This article gives an overview of the most common formatting options.&lt;/p&gt;
@@ -1003,7 +1003,7 @@ Here&#39;s some important information...
     <item>
       <title>Frequently Asked Questions (FAQ)</title>
       <link>http://shihua-gong.org/post/faq/</link>
-      <pubDate>Sun, 10 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 10 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>http://shihua-gong.org/post/faq/</guid>
       <description>&lt;p&gt;Common questions and answers will be listed here.&lt;/p&gt;
@@ -1056,7 +1056,7 @@ y &amp;amp;=&amp;amp; 1+1   \\\\\\
     <item>
       <title>Migrate from Jekyll to Hugo</title>
       <link>http://shihua-gong.org/post/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 -0400</pubDate>
       
       <guid>http://shihua-gong.org/post/migrate-from-jekyll/</guid>
       <description>
