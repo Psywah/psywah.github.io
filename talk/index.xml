@@ -8,7 +8,18 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Shihua Gong</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/talk/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://shihua-gong.org/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>An Analysis of a Schwarz preconditioner for heterogeneous Helmholtz problems</title>
+      <link>http://shihua-gong.org/talk/2019strathclyde/</link>
+      <pubDate>Wed, 26 Jun 2019 00:00:00 +0100</pubDate>
+      
+      <guid>http://shihua-gong.org/talk/2019strathclyde/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>An Analysis of Nonlinear Elimination Preconditioned Newton&#39;s method</title>
