@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Shihua Gong</copyright>
-    <lastBuildDate>Mon, 10 Mar 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Mar 2014 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="http://shihua-gong.org/tags/jekyll/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Migrate from Jekyll to Hugo</title>
       <link>http://shihua-gong.org/post/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0800</pubDate>
       
       <guid>http://shihua-gong.org/post/migrate-from-jekyll/</guid>
       <description>Learn how to migrate an existing website from Jekyll to Hugo.</description>

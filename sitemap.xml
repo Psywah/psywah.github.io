@@ -5,7 +5,7 @@
     <url>
     
       <loc>http://shihua-gong.org/talk/2019strathclyde/</loc>
-      <lastmod>2019-06-26T00:00:00+01:00</lastmod>
+      <lastmod>2019-06-26T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -14,7 +14,7 @@
     <url>
     
       <loc>http://shihua-gong.org/</loc>
-      <lastmod>2019-06-26T00:00:00+01:00</lastmod>
+      <lastmod>2019-06-26T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -53,7 +53,7 @@
     <url>
     
       <loc>http://shihua-gong.org/talk/2018pp/</loc>
-      <lastmod>2017-09-01T00:00:00+01:00</lastmod>
+      <lastmod>2017-09-01T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -117,34 +117,7 @@
     
     <url>
     
-      <loc>http://shihua-gong.org/talk/2017petsc/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://shihua-gong.org/talk/2017copper/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://shihua-gong.org/tags/academic/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://shihua-gong.org/post/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -164,6 +137,33 @@
     
       <loc>http://shihua-gong.org/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://shihua-gong.org/talk/2017petsc/</loc>
+      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://shihua-gong.org/talk/2017copper/</loc>
+      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://shihua-gong.org/post/</loc>
+      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -200,7 +200,7 @@
     <url>
     
       <loc>http://shihua-gong.org/tags/</loc>
-      <lastmod>2017-09-03T00:00:00+01:00</lastmod>
+      <lastmod>2017-09-03T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -230,7 +230,7 @@
     <url>
     
       <loc>http://shihua-gong.org/post/getting-started/</loc>
-      <lastmod>2017-09-03T00:00:00+01:00</lastmod>
+      <lastmod>2017-09-03T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -239,7 +239,7 @@
     <url>
     
       <loc>http://shihua-gong.org/tags/hugo/</loc>
-      <lastmod>2017-09-03T00:00:00+01:00</lastmod>
+      <lastmod>2017-09-03T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -249,7 +249,7 @@
     <url>
     
       <loc>http://shihua-gong.org/post/widgets/</loc>
-      <lastmod>2016-04-19T00:00:00+01:00</lastmod>
+      <lastmod>2016-04-19T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -258,7 +258,7 @@
     <url>
     
       <loc>http://shihua-gong.org/post/managing-content/</loc>
-      <lastmod>2016-04-18T00:00:00+01:00</lastmod>
+      <lastmod>2016-04-18T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -267,7 +267,7 @@
     <url>
     
       <loc>http://shihua-gong.org/post/writing-markdown-latex/</loc>
-      <lastmod>2016-04-17T00:00:00+01:00</lastmod>
+      <lastmod>2016-04-17T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -276,7 +276,7 @@
     <url>
     
       <loc>http://shihua-gong.org/post/faq/</loc>
-      <lastmod>2016-04-10T00:00:00+01:00</lastmod>
+      <lastmod>2016-04-10T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -285,7 +285,7 @@
     <url>
     
       <loc>http://shihua-gong.org/talk/2015iciam/</loc>
-      <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2015-01-01T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -294,7 +294,7 @@
     <url>
     
       <loc>http://shihua-gong.org/post/migrate-from-jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+      <lastmod>2014-03-10T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -303,7 +303,7 @@
     <url>
     
       <loc>http://shihua-gong.org/tags/jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+      <lastmod>2014-03-10T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
