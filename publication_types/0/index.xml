@@ -7,17 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Shihua Gong</copyright>
-    <lastBuildDate>Tue, 09 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://shihua-gong.org/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title> A Nonlinear Elimination Preconditioned Inexact Newton Method for Heterogeneous Hyperelasticity</title>
-      <link>http://shihua-gong.org/publication/2018-gong-cai-homogeneous/</link>
-      <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
+      <title>Domain decomposition preconditioners for high-order discretisations of the heterogeneous Helmholtz equation</title>
+      <link>http://shihua-gong.org/publication/2020-gong-graham-spence-hetehelm/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://shihua-gong.org/publication/2018-gong-cai-homogeneous/</guid>
+      <guid>http://shihua-gong.org/publication/2020-gong-graham-spence-hetehelm/</guid>
       <description></description>
     </item>
     
