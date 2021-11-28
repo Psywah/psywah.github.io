@@ -13,9 +13,36 @@
     
     
     <item>
+      <title>Convergence of Restricted Additive Schwarz with impedance transmission conditions for discretised Helmholtz problems</title>
+      <link>http://shihua-gong.org/publication/2021-gong-graham-spence-oras/</link>
+      <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://shihua-gong.org/publication/2021-gong-graham-spence-oras/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Convergence of parallel overlapping domain decomposition methods for the Helmholtz equation</title>
+      <link>http://shihua-gong.org/publication/2021-gong-gander-lafontaine-graham-spence-oras/</link>
+      <pubDate>Thu, 08 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://shihua-gong.org/publication/2021-gong-gander-lafontaine-graham-spence-oras/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A variational interpretation of Restricted Additive Schwarz with impedance transmission condition for the Helmholtz problem</title>
+      <link>http://shihua-gong.org/publication/2021-gong-gander-graham-spence/</link>
+      <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://shihua-gong.org/publication/2021-gong-gander-graham-spence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Domain decomposition preconditioners for high-order discretisations of the heterogeneous Helmholtz equation</title>
       <link>http://shihua-gong.org/publication/2020-gong-graham-spence-hetehelm/</link>
-      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>http://shihua-gong.org/publication/2020-gong-graham-spence-hetehelm/</guid>
       <description></description>
@@ -24,7 +51,7 @@
     <item>
       <title> A Nonlinear Elimination Preconditioned Inexact Newton Method for Heterogeneous Hyperelasticity</title>
       <link>http://shihua-gong.org/publication/2018-gong-cai-homogeneous/</link>
-      <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>http://shihua-gong.org/publication/2018-gong-cai-homogeneous/</guid>
       <description></description>
@@ -33,7 +60,7 @@
     <item>
       <title>New Hybridized Mixed Methods for Linear Elasticity and Optimal Multilevel Solvers</title>
       <link>http://shihua-gong.org/publication/2017-gong-wu-xu-hyrbid/</link>
-      <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>http://shihua-gong.org/publication/2017-gong-wu-xu-hyrbid/</guid>
       <description></description>

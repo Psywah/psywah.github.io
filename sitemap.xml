@@ -4,8 +4,8 @@
     
     <url>
     
-      <loc>http://shihua-gong.org/</loc>
-      <lastmod>2020-04-20T00:00:00+01:00</lastmod>
+      <loc>http://shihua-gong.org/publication_types/0/</loc>
+      <lastmod>2021-08-08T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -14,8 +14,64 @@
     
     <url>
     
-      <loc>http://shihua-gong.org/publication_types/0/</loc>
-      <lastmod>2020-04-08T00:00:00+00:00</lastmod>
+      <loc>http://shihua-gong.org/publication/2021-gong-graham-spence-oras/</loc>
+      <lastmod>2021-08-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://shihua-gong.org/publication_types/</loc>
+      <lastmod>2021-08-08T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://shihua-gong.org/</loc>
+      <lastmod>2021-08-08T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://shihua-gong.org/publication/2021-gong-gander-lafontaine-graham-spence-oras/</loc>
+      <lastmod>2021-04-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://shihua-gong.org/publication/2021-gong-gander-graham-spence/</loc>
+      <lastmod>2021-03-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://shihua-gong.org/talk/2021siam/</loc>
+      <lastmod>2021-03-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://shihua-gong.org/publication_types/2/</loc>
+      <lastmod>2021-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -25,7 +81,7 @@
     <url>
     
       <loc>http://shihua-gong.org/publication/2020-gong-graham-spence-hetehelm/</loc>
-      <lastmod>2020-04-08T00:00:00+00:00</lastmod>
+      <lastmod>2021-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -33,9 +89,8 @@
     
     <url>
     
-      <loc>http://shihua-gong.org/publication_types/</loc>
-      <lastmod>2020-04-08T00:00:00+00:00</lastmod>
-      <priority>0</priority>
+      <loc>http://shihua-gong.org/talk/2020dd26/</loc>
+      <lastmod>2020-12-06T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -53,7 +108,7 @@
     <url>
     
       <loc>http://shihua-gong.org/publication/2018-gong-cai-homogeneous/</loc>
-      <lastmod>2018-01-09T00:00:00+00:00</lastmod>
+      <lastmod>2019-01-09T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -61,9 +116,8 @@
     
     <url>
     
-      <loc>http://shihua-gong.org/publication_types/2/</loc>
-      <lastmod>2018-01-09T00:00:00+00:00</lastmod>
-      <priority>0</priority>
+      <loc>http://shihua-gong.org/publication/2017-gong-wu-xu-hyrbid/</loc>
+      <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -73,15 +127,6 @@
     
       <loc>http://shihua-gong.org/talk/2018pp/</loc>
       <lastmod>2017-09-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://shihua-gong.org/publication/2017-gong-wu-xu-hyrbid/</loc>
-      <lastmod>2017-05-27T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -153,15 +198,6 @@
     
     <url>
     
-      <loc>http://shihua-gong.org/post/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://shihua-gong.org/talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -180,119 +216,6 @@
     
     <url>
     
-      <loc>http://shihua-gong.org/project/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://shihua-gong.org/project/example-external-project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://shihua-gong.org/project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://shihua-gong.org/tags/</loc>
-      <lastmod>2017-09-03T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://shihua-gong.org/tags/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://shihua-gong.org/tags/demo/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://shihua-gong.org/post/getting-started/</loc>
-      <lastmod>2017-09-03T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://shihua-gong.org/tags/hugo/</loc>
-      <lastmod>2017-09-03T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://shihua-gong.org/post/widgets/</loc>
-      <lastmod>2016-04-19T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://shihua-gong.org/post/managing-content/</loc>
-      <lastmod>2016-04-18T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://shihua-gong.org/post/writing-markdown-latex/</loc>
-      <lastmod>2016-04-17T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://shihua-gong.org/post/faq/</loc>
-      <lastmod>2016-04-10T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://shihua-gong.org/talk/2015iciam/</loc>
       <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -302,17 +225,7 @@
     
     <url>
     
-      <loc>http://shihua-gong.org/post/migrate-from-jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://shihua-gong.org/tags/jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+      <loc>http://shihua-gong.org/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -321,7 +234,7 @@
     
     <url>
     
-      <loc>http://shihua-gong.org/categories/</loc>
+      <loc>http://shihua-gong.org/tags/</loc>
       <priority>0</priority>
     </url>
     

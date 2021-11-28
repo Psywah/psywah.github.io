@@ -7,17 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Shihua Gong</copyright>
-    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Aug 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://shihua-gong.org/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Domain decomposition preconditioners for high-order discretisations of the heterogeneous Helmholtz equation</title>
-      <link>http://shihua-gong.org/publication/2020-gong-graham-spence-hetehelm/</link>
-      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      <title>Convergence of Restricted Additive Schwarz with impedance transmission conditions for discretised Helmholtz problems</title>
+      <link>http://shihua-gong.org/publication/2021-gong-graham-spence-oras/</link>
+      <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://shihua-gong.org/publication/2020-gong-graham-spence-hetehelm/</guid>
+      <guid>http://shihua-gong.org/publication/2021-gong-graham-spence-oras/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Convergence of parallel overlapping domain decomposition methods for the Helmholtz equation</title>
+      <link>http://shihua-gong.org/publication/2021-gong-gander-lafontaine-graham-spence-oras/</link>
+      <pubDate>Thu, 08 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://shihua-gong.org/publication/2021-gong-gander-lafontaine-graham-spence-oras/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A variational interpretation of Restricted Additive Schwarz with impedance transmission condition for the Helmholtz problem</title>
+      <link>http://shihua-gong.org/publication/2021-gong-gander-graham-spence/</link>
+      <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://shihua-gong.org/publication/2021-gong-gander-graham-spence/</guid>
       <description></description>
     </item>
     
