@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Shihua Gong</copyright>
-    <lastBuildDate>Mon, 20 Apr 2020 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="http://shihua-gong.org/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -25,7 +25,7 @@ My research interests include scientific computing and numerical analysis, mainl
     <item>
       <title>Selected Publications</title>
       <link>http://shihua-gong.org/home/publications_selected/</link>
-      <pubDate>Mon, 20 Apr 2020 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0800</pubDate>
       
       <guid>http://shihua-gong.org/home/publications_selected/</guid>
       <description></description>
@@ -34,7 +34,7 @@ My research interests include scientific computing and numerical analysis, mainl
     <item>
       <title>Recent Publications</title>
       <link>http://shihua-gong.org/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
       <guid>http://shihua-gong.org/home/publications/</guid>
       <description></description>
@@ -55,7 +55,7 @@ My research interests include scientific computing and numerical analysis, mainl
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>http://shihua-gong.org/home/teaching/</guid>
-      <description> Tutor, Programming and discrete mathematics, University of Bath, Jan-May 2021 Teaching Assistant, Finite Element Methods, Pennsylvania State University, Aug-Dec 2018 Teaching Assistant, Introduction to Fluid Mechanics, Peking University, Mar-Jul 2015 Teaching Assistant, Functions of Real Variable and Functional Analysis, Peking University, Sept-Jan 2015 Teaching Assistant, Linear Algebra, Peking University, Mar-Jul 2014  </description>
+      <description> Lecturer, Functional Analysis, CUHK-Shenzhen, Jan-May 2022 Tutor, Programming and discrete mathematics, University of Bath, Jan-May 2021 Teaching Assistant, Finite Element Methods, Pennsylvania State University, Aug-Dec 2018 Teaching Assistant, Introduction to Fluid Mechanics, Peking University, Mar-Jul 2015 Teaching Assistant, Functions of Real Variable and Functional Analysis, Peking University, Sept-Jan 2015 Teaching Assistant, Linear Algebra, Peking University, Mar-Jul 2014  </description>
     </item>
     
     <item>

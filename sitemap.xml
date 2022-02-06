@@ -62,7 +62,7 @@
     <url>
     
       <loc>http://shihua-gong.org/talk/2021siam/</loc>
-      <lastmod>2021-03-06T00:00:00+00:00</lastmod>
+      <lastmod>2021-03-06T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -90,7 +90,7 @@
     <url>
     
       <loc>http://shihua-gong.org/talk/2020dd26/</loc>
-      <lastmod>2020-12-06T00:00:00+00:00</lastmod>
+      <lastmod>2020-12-06T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -99,7 +99,7 @@
     <url>
     
       <loc>http://shihua-gong.org/talk/2019strathclyde/</loc>
-      <lastmod>2019-06-26T00:00:00+01:00</lastmod>
+      <lastmod>2019-06-26T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -126,7 +126,7 @@
     <url>
     
       <loc>http://shihua-gong.org/talk/2018pp/</loc>
-      <lastmod>2017-09-01T00:00:00+01:00</lastmod>
+      <lastmod>2017-09-01T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -171,24 +171,6 @@
     
     <url>
     
-      <loc>http://shihua-gong.org/talk/2017petsc/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://shihua-gong.org/talk/2017copper/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://shihua-gong.org/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -216,8 +198,26 @@
     
     <url>
     
+      <loc>http://shihua-gong.org/talk/2017petsc/</loc>
+      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://shihua-gong.org/talk/2017copper/</loc>
+      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://shihua-gong.org/talk/2015iciam/</loc>
-      <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2015-01-01T00:00:00+08:00</lastmod>
     </url>
     
   
