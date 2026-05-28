@@ -33,100 +33,9 @@
 
   
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&display=swap">
-
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7cMerriweather%7cRoboto&#43;Mono">
+  
   <link rel="stylesheet" href="/styles.css">
-
-  <style>
-    /* ===== Typography upgrade ===== */
-    body, p, li, td, th, .ul-interests li, .ul-edu .description {
-      font-family: 'Inter', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
-      font-feature-settings: "cv11", "ss01";
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-    h1, h2, h3, h4, h5, h6, .navbar-brand {
-      font-family: 'Source Serif 4', 'Noto Sans SC', Georgia, serif;
-      font-weight: 600;
-      letter-spacing: -0.01em;
-    }
-    code, pre, kbd, samp { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace; }
-
-    body { font-size: 16px; line-height: 1.65; color: #2c3e50; background: #fff; }
-    p { margin-bottom: 1rem; }
-    a { color: #1f3a5f; text-decoration: none; transition: color .15s ease, border-color .15s ease; }
-    a:hover, a:focus { color: #0d4a8f; text-decoration: none; border-bottom: 1px solid currentColor; }
-
-    /* Section rhythm */
-    .home-section { padding-top: 4.5rem; padding-bottom: 4.5rem; }
-    #about { padding-top: 6.5rem; } /* extra clearance for the fixed navbar on the first section */
-    @media (max-width: 768px) {
-      .home-section { padding-top: 2.5rem; padding-bottom: 2.5rem; }
-      #about { padding-top: 5rem; }
-    }
-    .section-heading h1 { font-size: 2.1rem; margin-top: 0; margin-bottom: .8rem; color: #1f3a5f; }
-    .section-heading p { color: #7a7a7a; font-size: .95em; }
-
-    /* Profile portrait */
-    .portrait { border-radius: 12px; box-shadow: 0 4px 20px rgba(31,58,95,.12); }
-    .portrait-title h2 { font-size: 1.7rem; margin-top: 1rem; margin-bottom: .35rem; color: #1f3a5f; }
-    .portrait-title h3 { font-size: 1rem; color: #555; font-weight: 500; font-family: 'Inter', sans-serif; letter-spacing: 0; }
-    .portrait-title h3 a { color: #555; }
-
-    /* Network icons */
-    .network-icon { padding: 0; margin-top: 1rem; }
-    .network-icon li { display: inline-block; margin: 0 .35rem; }
-    .big-icon { font-size: 1.4rem; color: #1f3a5f; transition: color .15s, transform .15s; }
-    .network-icon a:hover .big-icon { color: #0d4a8f; transform: translateY(-2px); }
-
-    /* Navbar */
-    .navbar-default { background: rgba(255,255,255,.96); backdrop-filter: saturate(180%) blur(8px); border-bottom: 1px solid #ececec; box-shadow: 0 1px 4px rgba(0,0,0,.03); }
-    .navbar-default .navbar-brand { color: #1f3a5f; font-weight: 700; font-size: 1.1rem; }
-    .navbar-default .navbar-nav > li > a { color: #444; font-weight: 500; font-size: .92rem; padding: 25px 12px; transition: color .15s; }
-    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li.active > a { color: #1f3a5f; background: transparent; }
-
-    /* Headings inside content */
-    .col-md-8 h1#biography { font-size: 1.9rem; color: #1f3a5f; margin-top: 0; margin-bottom: 1rem; border-bottom: 2px solid #1f3a5f; padding-bottom: .4rem; display: inline-block; }
-    .col-md-8 h3 { font-size: 1.15rem; color: #1f3a5f; margin-top: 1.5rem; margin-bottom: .6rem; }
-    .col-md-8 ul li { line-height: 1.7; }
-
-    /* Highlights list */
-    .col-md-8 ul[style*="padding-left: 1.2rem"] li { margin-bottom: .35rem; }
-
-    /* Buttons */
-    .btn { border-radius: 6px; font-weight: 500; font-size: .9rem; letter-spacing: .01em; transition: all .15s ease; }
-    .btn-primary { background: #1f3a5f; border-color: #1f3a5f; }
-    .btn-primary:hover, .btn-primary:focus { background: #0d4a8f; border-color: #0d4a8f; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(31,58,95,.2); }
-    .btn-default { background: #fff; border: 1px solid #d0d7de; color: #1f3a5f; }
-    .btn-default:hover { background: #f5f8fb; border-color: #1f3a5f; color: #0d4a8f; }
-    .btn-outline { box-shadow: none; }
-    .btn-xs { padding: 2px 8px; font-size: .78rem; }
-
-    /* Publication items */
-    .pub-list-item { line-height: 1.55; padding: .15rem 0; }
-    .pub-list-item .pub-icon { color: #1f3a5f; margin-right: .5rem; opacity: .7; }
-    .pub-list-item em { color: #444; font-style: italic; }
-    .pub-list-item strong { color: #1f3a5f; }
-    .pub-list-item a { border-bottom: none; }
-
-    /* Cards (Openings, etc.) */
-    div[style*="border-left: 4px solid #1f3a5f"] { border-radius: 8px !important; box-shadow: 0 2px 8px rgba(31,58,95,.05); }
-
-    /* Section dividers */
-    section + section { border-top: 1px solid #f0f2f5; }
-
-    /* News list timestamps */
-    .news-list li { line-height: 1.55; }
-
-    /* Smooth scroll */
-    html { scroll-behavior: smooth; }
-    body { scroll-padding-top: 80px; }
-
-    /* Footer subtleness */
-    #contact { background: #f8f9fa; }
-  </style>
   
 
   
@@ -200,38 +109,8 @@
 
         <li class="nav-item">
           <a href="/#about" data-target="#about">
-
+            
             <span>Home</span>
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="/#research" data-target="#research">
-            <span>Research</span>
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="/#news" data-target="#news">
-            <span>News</span>
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="/#openings" data-target="#openings">
-            <span>Openings</span>
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="/#group" data-target="#group">
-            <span>Group</span>
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="/#funding" data-target="#funding">
-            <span>Funding</span>
           </a>
         </li>
 
@@ -242,13 +121,7 @@
 
         <li class="nav-item">
           <a href="/#publications_selected" data-target="#publications_selected">
-
-            <span>Selected</span>
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="/#publications_all" data-target="#publications_all">
+            
             <span>Publications</span>
           </a>
         </li>
@@ -270,6 +143,13 @@
 
         
 
+        <li class="nav-item">
+          <a href="/#teaching" data-target="#teaching">
+            
+            <span>Teaching</span>
+          </a>
+        </li>
+
         
         
 
@@ -288,8 +168,8 @@
         
 
         <li class="nav-item">
-          <a href="/files/cv-gong-20260528.pdf" target="_blank" rel="noopener" data-target="">
-
+          <a href="/" data-target="">
+            
             <span>CV</span>
           </a>
         </li>
@@ -329,13 +209,13 @@
     <div id="profile">
 
       
-      <div class="portrait" style="background-image: url('/files/image.png');"></div>
-      <meta itemprop="image" content="/files/image.png">
+      <div class="portrait" style="background-image: url('http://shihua-gong.org/img/portrait1.jpg');"></div>
+      <meta itemprop="image" content="http://shihua-gong.org/img/portrait1.jpg">
       
 
       <div class="portrait-title">
         <h2 itemprop="name">Shihua Gong</h2>
-        <h3 itemprop="jobTitle">Assistant Professor &middot; Presidential Young Fellow</h3>
+        <h3 itemprop="jobTitle">Assistant Professor</h3>
 
         
         
@@ -391,27 +271,11 @@
 
 <h1 id="biography">Biography</h1>
 
-<p>I am an Assistant Professor and Presidential Young Fellow at the
-<a href="https://sse.cuhk.edu.cn/en" target="_blank" rel="noopener">School of Science and Engineering</a>,
-<a href="https://www.cuhk.edu.cn/en" target="_blank" rel="noopener">The Chinese University of Hong Kong (Shenzhen)</a>,
-with a joint appointment at the Shenzhen Loop Area Institute.</p>
+<p>I obtained my bachelor’s degree from Sun Yat-sen University in 2013 and PhD degree in computational mathematics from Peking University in 2018. Before joining the Chinese University of Hong Kong (Shenzhen), I worked as a postdoctoral scholar at Pennsylvania State University (2018-2019), and then as a research associate at the University of Bath (2019-2021).</p>
 
-<p>I received my BS from Sun Yat-sen University (2013) and PhD in Computational Mathematics from
-Peking University (2018). Before joining CUHK-Shenzhen, I was a postdoctoral scholar at
-Pennsylvania State University (2018&ndash;2019) and a research associate at the University of Bath (2019&ndash;2021).</p>
+<p>My research interests include scientific computing and numerical analysis, mainly focusing on finite element, domain decomposition methods, and preconditioning techniques.</p>
 
-<p>With collaborators, I established the convergence theory of overlapping Schwarz and domain decomposition
-methods for the heterogeneous Helmholtz equation. My current work spans scientific computing,
-scalable solvers, and AI for multiphysics simulation, with results in
-<em>Math. Comp.</em>, <em>Numer. Math.</em>, <em>IMA J. Numer. Anal.</em>, and <em>SIAM J. Sci. Comput.</em></p>
-
-<h3 style="margin-top: 1.5rem;">Highlights</h3>
-<ul style="padding-left: 1.2rem;">
-  <li>Assistant Professor &amp; Presidential Young Fellow, CUHK-Shenzhen; joint appointment at the Shenzhen Loop Area Institute</li>
-  <li>Resolved the convergence theory of domain decomposition methods for the variable-wave-speed Helmholtz equation</li>
-  <li>PI of NSFC Young Scientists Fund, Guangdong NSF General Program, and Shenzhen STIC research grants</li>
-  <li>Industry partnerships with leading Shenzhen companies on frequency-domain wave solvers and multiphysics simulation for microfluidic chips</li>
-</ul>
+<p>If you are looking for PhD/postdoc position and interested in numerical PDE, please send your CV to gongshihua [AT] cuhk [dot] edu [dot] cn.</p>
 
 
     <div class="row">
@@ -462,295 +326,11 @@ scalable solvers, and AI for multiphysics simulation, with results in
 
     </div>
   </section>
+  
 
-
-
-
-
-  <section id="research" class="home-section" style="background-color: #ffffff;">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-4 section-heading">
-          <h1>Research</h1>
-          <p style="font-size: 0.9em; color: #7a7a7a;">
-            Two themes drive the work in our group, combining rigorous numerical analysis with scalable software and industrial applications.
-          </p>
-        </div>
-        <div class="col-xs-12 col-md-8">
-
-          <div class="row" style="margin-bottom: 2rem;">
-            <div class="col-sm-4">
-              <img src="/files/research/maxwell1.jpg" alt="Time-harmonic Maxwell scattering" style="width:100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 6px; box-shadow: 0 2px 8px rgba(31,58,95,.12);">
-              <p style="font-size: 0.75em; color: #888; margin-top: 0.4rem; text-align:center;">Time-harmonic Maxwell scattering</p>
-            </div>
-            <div class="col-sm-8">
-              <h3 style="margin-top:0;">High-Frequency Wave Propagation</h3>
-              <p>
-                Domain decomposition and Schwarz preconditioners for the heterogeneous Helmholtz and time-harmonic Maxwell equations.
-                With collaborators we established the first wavenumber-explicit convergence theory for ORAS with impedance and PML transmission conditions, and built massively parallel solvers tested at industrial scale.
-              </p>
-              <p style="font-size: 0.9em; color: #555;">
-                Representative work:
-                <a href="https://doi.org/10.1090/mcom/3772" target="_blank" rel="noopener">Math. Comp. 2023</a>
-                &middot;
-                <a href="https://doi.org/10.1007/s00211-022-01318-8" target="_blank" rel="noopener">Numer. Math. 2022</a>
-                &middot;
-                <a href="https://doi.org/10.1093/imanum/draa080" target="_blank" rel="noopener">IMA J. Numer. Anal. 2021</a>
-                &middot;
-                <a href="https://arxiv.org/abs/2404.02156" target="_blank" rel="noopener">PML 2024</a>
-              </p>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-sm-4">
-              <video autoplay loop muted playsinline style="width:100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 6px; box-shadow: 0 2px 8px rgba(31,58,95,.12); background:#000;">
-                <source src="/files/research/27d946a47f27a7a02c129222ddc4ef02.mp4" type="video/mp4">
-              </video>
-              <p style="font-size: 0.75em; color: #888; margin-top: 0.4rem; text-align:center;">DLD microfluidic simulation</p>
-            </div>
-            <div class="col-sm-8">
-              <h3 style="margin-top:0;">Multiphysics &amp; Fluid&ndash;Structure Interaction</h3>
-              <p>
-                High-order ALE and DLM-ALE finite element methods for fluid&ndash;structure and fluid&ndash;rigid-body interaction at multiple scales.
-                Driven by industrial applications including microfluidic chip design (DLD particle separation, predictive 3D microfluidic frameworks) and biomedical flow.
-              </p>
-              <p style="font-size: 0.9em; color: #555;">
-                Representative work:
-                <a href="https://arxiv.org/abs/2602.01094" target="_blank" rel="noopener">DLM-ALE 2026</a>
-                &middot;
-                <a href="https://arxiv.org/abs/2602.02003" target="_blank" rel="noopener">Localized ALE 2026</a>
-                &middot;
-                <a href="https://arxiv.org/abs/2604.12643" target="_blank" rel="noopener">Stokes inf-sup 2026</a>
-              </p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-
-  <section id="news" class="home-section" style="background-color: #f8f9fa;">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-4 section-heading">
-          <h1>News</h1>
-        </div>
-        <div class="col-xs-12 col-md-8">
-          <ul class="news-list" style="list-style:none; padding-left:0;">
-            <li style="padding: 0.6rem 0; border-bottom: 1px solid #e7e7e7;">
-              <span style="display:inline-block; min-width: 6.5rem; color:#7a7a7a; font-variant-numeric: tabular-nums;">2026.01</span>
-              I am co-organizing the International Conference on Domain Decomposition Methods (DD30) — stay tuned for the call for minisymposia.
-            </li>
-            <li style="padding: 0.6rem 0; border-bottom: 1px solid #e7e7e7;">
-              <span style="display:inline-block; min-width: 6.5rem; color:#7a7a7a; font-variant-numeric: tabular-nums;">2025.10</span>
-              Awarded the NSFC General Program on scalable solvers for high-frequency wave problems.
-            </li>
-            <li style="padding: 0.6rem 0; border-bottom: 1px solid #e7e7e7;">
-              <span style="display:inline-block; min-width: 6.5rem; color:#7a7a7a; font-variant-numeric: tabular-nums;">2025.07</span>
-              Plenary speaker at the IRC Conference on Multi-Level and Multi-Scale Methods in Computational Sciences, KAUST.
-            </li>
-            <li style="padding: 0.6rem 0; border-bottom: 1px solid #e7e7e7;">
-              <span style="display:inline-block; min-width: 6.5rem; color:#7a7a7a; font-variant-numeric: tabular-nums;">2025.01</span>
-              Co-organized the 24th International Domain Decomposition Conference, ICTP, Italy.
-            </li>
-            <li style="padding: 0.6rem 0;">
-              <span style="display:inline-block; min-width: 6.5rem; color:#7a7a7a; font-variant-numeric: tabular-nums;">2024.07</span>
-              Joined the steering committee of the Tsinghua Sanya Workshop on Advanced Solvers for Frequency-Domain Wave Problems.
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-
-  <section id="openings" class="home-section" style="background-color: #ffffff; border-top: 4px solid #1f3a5f;">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-4 section-heading">
-          <h1>Openings</h1>
-          <p style="font-size: 0.9em; color: #7a7a7a;">
-            Now hiring. Strong applicants will receive prompt replies.
-          </p>
-        </div>
-        <div class="col-xs-12 col-md-8">
-
-          <div style="background:#f1f5fa; border-left: 4px solid #1f3a5f; padding: 1.2rem 1.4rem; border-radius: 4px; margin-bottom: 1.2rem;">
-            <h3 style="margin-top:0;">Postdoctoral Fellow <span style="font-size:0.7em; color:#7a7a7a; font-weight: normal;">(SSE, CUHK-Shenzhen)</span></h3>
-            <p>
-              Open positions in <strong>numerical analysis, large-scale scientific computing, and AI for CAE</strong>.
-              Topics include finite element methods, linear/nonlinear preconditioning, high-frequency wave scattering,
-              fluid&ndash;structure interaction, and AI-accelerated solvers for industrial simulation.
-              Competitive package with provincial and university subsidies; eligible to apply for grants as PI.
-            </p>
-            <p style="margin-bottom: 0;">
-              <a class="btn btn-primary" href="https://www.cuhk.edu.cn/zh-hans/recruitment/17519" target="_blank" rel="noopener">Full posting &amp; benefits (CUHK-SZ)</a>
-              <a class="btn btn-default" href="mailto:gongshihua@cuhk.edu.cn">Email me</a>
-            </p>
-          </div>
-
-          <div style="background:#fafafa; border-left: 4px solid #888; padding: 1.2rem 1.4rem; border-radius: 4px;">
-            <h3 style="margin-top:0;">PhD Students &amp; Visiting Scholars</h3>
-            <p>
-              I am also recruiting motivated <strong>PhD students</strong> (admission via CUHK-Shenzhen, fall 2026)
-              and welcoming <strong>visiting scholars / students</strong> in numerical PDEs, domain decomposition,
-              finite element methods, and scientific machine learning.
-            </p>
-            <p style="margin-bottom: 0;">
-              Email your CV, transcripts, and a short research statement to
-              <a href="mailto:gongshihua@cuhk.edu.cn">gongshihua@cuhk.edu.cn</a>.
-            </p>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-
-  <section id="group" class="home-section" style="background-color: #f8f9fa;">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-4 section-heading">
-          <h1>Group</h1>
-          <p style="font-size: 0.9em; color: #7a7a7a;">
-            Members and alumni of the research group at SSE, CUHK-Shenzhen.
-          </p>
-        </div>
-        <div class="col-xs-12 col-md-8">
-
-          <h3 style="border-bottom:1px solid #ddd; padding-bottom: .3rem;">Postdoctoral Fellows</h3>
-          <ul style="list-style:none; padding-left:0;">
-            <li style="padding: 0.4rem 0;"><strong>Tian Tian</strong> <span style="color:#7a7a7a;">&middot; 2025 &ndash; 2027</span></li>
-          </ul>
-
-          <h3 style="border-bottom:1px solid #ddd; padding-bottom: .3rem; margin-top: 1.5rem;">PhD Students</h3>
-          <ul style="list-style:none; padding-left:0;">
-            <li style="padding: 0.4rem 0;"><strong>Qi Xin</strong> <span style="color:#7a7a7a;">&middot; 2023 &ndash; 2027</span></li>
-            <li style="padding: 0.4rem 0;"><strong>Yue Yu</strong> <span style="color:#7a7a7a;">&middot; 2023 &ndash; 2027</span></li>
-            <li style="padding: 0.4rem 0;"><strong>Jiahao Ma</strong> <span style="color:#7a7a7a;">&middot; 2026 &ndash; 2030</span></li>
-            <li style="padding: 0.4rem 0;"><strong>Liuming Zeng</strong> <span style="color:#7a7a7a;">&middot; 2026 &ndash; 2030</span></li>
-            <li style="padding: 0.4rem 0;"><strong>Yuziheng Wu</strong> <span style="color:#7a7a7a;">&middot; 2026 &ndash; 2030</span></li>
-          </ul>
-
-          <h3 style="border-bottom:1px solid #ddd; padding-bottom: .3rem; margin-top: 1.5rem;">MPhil Students</h3>
-          <ul style="list-style:none; padding-left:0;">
-            <li style="padding: 0.4rem 0;"><strong>Xiang Zhou</strong> <span style="color:#7a7a7a;">&middot; 2025 &ndash; 2027</span></li>
-          </ul>
-
-          <h3 style="border-bottom:1px solid #ddd; padding-bottom: .3rem; margin-top: 1.5rem;">Visiting Students</h3>
-          <ul style="list-style:none; padding-left:0;">
-            <li style="padding: 0.4rem 0;"><strong>Linghan Huang</strong> <span style="color:#7a7a7a;">&middot; 2025 &ndash; 2026</span></li>
-            <li style="padding: 0.4rem 0;"><strong>Yan Xie</strong> <span style="color:#7a7a7a;">&middot; 2024 &ndash; 2025</span></li>
-          </ul>
-
-          <h3 style="border-bottom:1px solid #ddd; padding-bottom: .3rem; margin-top: 1.5rem;">Alumni</h3>
-          <ul style="list-style:none; padding-left:0;">
-            <li style="padding: 0.4rem 0;">
-              <strong>Luyu Cen</strong>
-              <span style="color:#7a7a7a;">&middot; Postdoc, 2023 &ndash; 2025</span>
-              <span style="color:#7a7a7a;">&rarr; Lecturer, CUHK-Shenzhen</span>
-            </li>
-            <li style="padding: 0.4rem 0;">
-              <strong>Jinkai Zheng</strong>
-              <span style="color:#7a7a7a;">&middot; MPhil, 2023 &ndash; 2025</span>
-              <span style="color:#7a7a7a;">&rarr; Engineer, Shenzhen Big Data Research Institute</span>
-            </li>
-          </ul>
-
-          <p style="margin-top: 1.5rem; font-size: 0.9em; color: #7a7a7a;">
-            Looking to join? See the <a href="#openings">Openings</a> section above.
-          </p>
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-
-  <section id="funding" class="home-section" style="background-color: #ffffff;">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-4 section-heading">
-          <h1>Funding &amp; Industry</h1>
-          <p style="font-size: 0.9em; color: #7a7a7a;">
-            Active and recent grants, plus industry collaborations.
-          </p>
-        </div>
-        <div class="col-xs-12 col-md-8">
-
-          <h3 style="border-bottom:1px solid #ddd; padding-bottom: .3rem;">Grants</h3>
-          <ul style="list-style:none; padding-left:0;">
-            <li style="padding: 0.6rem 0; border-bottom: 1px solid #eee;">
-              <strong>Novel Technology Program for Industrial Software</strong>
-              <span style="color:#7a7a7a;">&middot; Guangdong ZHGC, 2025&ndash;2026 &middot; Technical Coordinator</span><br>
-              <span style="font-size:0.92em;">Novel structured Arbitrary-Lagrangian&ndash;Eulerian solvers for fluid&ndash;structure interactions. (PI: Jinchao Xu, KAUST &amp; SRIBD)</span>
-            </li>
-            <li style="padding: 0.6rem 0; border-bottom: 1px solid #eee;">
-              <strong>International Cooperation &amp; Exchange Program</strong>
-              <span style="color:#7a7a7a;">&middot; NSFC, 2024&ndash;2026 &middot; PI</span><br>
-              <span style="font-size:0.92em;">Iterative solvers and analysis for high-frequency Hodge wave equations. Joint with Kaibo Hu, Univ. of Edinburgh.</span>
-            </li>
-            <li style="padding: 0.6rem 0; border-bottom: 1px solid #eee;">
-              <strong>General Program, NSFC</strong>
-              <span style="color:#7a7a7a;">&middot; 2024&ndash;2027 &middot; co-PI</span><br>
-              <span style="font-size:0.92em;">Novel high-order adaptive FEM methods for antenna simulation in the frequency-domain. (PI: Huayi Wei, Xiangtan University)</span>
-            </li>
-            <li style="padding: 0.6rem 0; border-bottom: 1px solid #eee;">
-              <strong>Research and Development Program, Huawei Technologies Co., Ltd.</strong>
-              <span style="color:#7a7a7a;">&middot; 2023&ndash;2024 &middot; PI</span><br>
-              <span style="font-size:0.92em;">Domain decomposition methods for the time-harmonic Maxwell equation.</span>
-            </li>
-            <li style="padding: 0.6rem 0; border-bottom: 1px solid #eee;">
-              <strong>Young Scientists Program, NSFC</strong>
-              <span style="color:#7a7a7a;">&middot; 2023&ndash;2025 &middot; PI</span><br>
-              <span style="font-size:0.92em;">Iterative solvers for the Helmholtz equation at high and multi frequencies and convergence analysis.</span>
-            </li>
-            <li style="padding: 0.6rem 0; border-bottom: 1px solid #eee;">
-              <strong>General Program, Guangdong Basic and Applied Basic Research Foundation</strong>
-              <span style="color:#7a7a7a;">&middot; 2023&ndash;2025 &middot; PI</span><br>
-              <span style="font-size:0.92em;">Nonlinear and linear preconditioners for multiscale fluid&ndash;structure interaction problems with collisions.</span>
-            </li>
-            <li style="padding: 0.6rem 0; border-bottom: 1px solid #eee;">
-              <strong>Stable Support Plan Program, Shenzhen Natural Science Foundation</strong>
-              <span style="color:#7a7a7a;">&middot; 2022&ndash;2025 &middot; PI</span><br>
-              <span style="font-size:0.92em;">Scalable solvers for frequency-domain wave equations in complex geometric domains and heterogeneous media.</span>
-            </li>
-            <li style="padding: 0.6rem 0;">
-              <strong>General Program, Shenzhen Natural Science Foundation</strong>
-              <span style="color:#7a7a7a;">&middot; 2022&ndash;2025 &middot; Participant</span><br>
-              <span style="font-size:0.92em;">The effects of geometry and topology on nonlinear PDEs. (PI: Xingbin Pan)</span>
-            </li>
-          </ul>
-
-          <h3 style="border-bottom:1px solid #ddd; padding-bottom: .3rem; margin-top: 2rem;">Industry Collaborations</h3>
-          <ul style="list-style:none; padding-left:0;">
-            <li style="padding: 0.6rem 0;">
-              <strong>Huawei Technologies Co., Ltd.</strong>
-              <span style="color:#7a7a7a;">&middot; 2023&ndash;2024</span><br>
-              <span style="font-size:0.92em;">Domain decomposition methods for the time-harmonic Maxwell equation, supporting frequency-domain wave solvers in industrial scattering simulations.</span>
-            </li>
-          </ul>
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-
+  
+  
+  
   <section id="publications_selected" class="home-section">
     <div class="container">
       
@@ -983,284 +563,311 @@ scalable solvers, and AI for multiphysics simulation, with results in
 
     </div>
   </section>
+  
 
-
-
-
-  <section id="publications_all" class="home-section" style="background-color: #f8f9fa;">
+  
+  
+  
+  <section id="talks" class="home-section">
     <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-4 section-heading">
-          <h1>All Publications</h1>
-          <p style="font-size: 0.9em; color: #7a7a7a;">
-            Reverse chronological. <span style="color:#1f3a5f;">*</span> denotes corresponding author.
-            <a href="https://scholar.google.ro/citations?user=Wz1lajQAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>.
-          </p>
-        </div>
-        <div class="col-xs-12 col-md-8">
+      
 
-          <h3 style="border-bottom:1px solid #ddd; padding-bottom: .3rem;">2026 (preprints)</h3>
-          <div class="pub-list-item" style="margin-bottom: 1.2rem;">
-            <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-            L. Shen, Y. Zhang, Y. Chen, X. Ding, P. Wen, C. Wang, P. Sun, <strong>S. Gong</strong>, J. Xu, et&nbsp;al.
-            A high-fidelity 3D fluid&ndash;structure interaction framework for predictive microfluidic design.
-            <em>bioRxiv</em>, 2026.04.28.721227, 2026.
-          </div>
-          <div class="pub-list-item" style="margin-bottom: 1.2rem;">
-            <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-            Q. Xin, <strong>S. Gong</strong>, J. Xu.
-            Sharp inf-sup estimate for the Stokes equation in tight domains with periodic pillars and some numerical implications.
-            <em>arXiv:2604.12643</em>, 2026.
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2604.12643" target="_blank" rel="noopener">arXiv</a>
-          </div>
-          <div class="pub-list-item" style="margin-bottom: 1.2rem;">
-            <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-            L. Shen, Q. Xin, Y. Chen, J. Han, J. Xu, Y. Zhang, <strong>S. Gong</strong><sup>*</sup>.
-            A monolithic localized high-order ALE finite element method for multi-scale fluid&ndash;structure interaction problems.
-            <em>arXiv:2602.02003</em>, 2026.
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2602.02003" target="_blank" rel="noopener">arXiv</a>
-          </div>
-          <div class="pub-list-item" style="margin-bottom: 1.2rem;">
-            <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-            Q. Xin, <strong>S. Gong</strong><sup>*</sup>, L. Shen, P. Wen, Y. Zhang, Y. Chen, J. Han, J. Xu.
-            High-order DLM-ALE discretizations with robust operator preconditioning for fluid&ndash;rigid-body interaction.
-            <em>arXiv:2602.01094</em>, 2026.
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2602.01094" target="_blank" rel="noopener">arXiv</a>
-          </div>
-          <div class="pub-list-item" style="margin-bottom: 1.2rem;">
-            <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-            Y. Xie, <strong>S. Gong</strong><sup>*</sup>, I. G. Graham, E. A. Spence, C.-S. Zhang.
-            Massively parallel Schwarz methods for the high-frequency Helmholtz equation.
-            <em>Proc. 29th Domain Decomposition Conference</em>, 2026.
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2602.00735" target="_blank" rel="noopener">arXiv</a>
-          </div>
 
-          <h4 style="margin-top: 1.5rem; color:#7a7a7a; font-style:italic;">In preparation</h4>
-          <div class="pub-list-item" style="margin-bottom: 0.8rem; font-size: 0.95em;">
-            Y. Xie, <strong>S. Gong</strong>, I. G. Graham, E. A. Spence.
-            Massively parallel domain decomposition methods for solving the Helmholtz equation in <em>O(k)</em> runtime.
-          </div>
-          <div class="pub-list-item" style="margin-bottom: 0.8rem; font-size: 0.95em;">
-            L. Cen, <strong>S. Gong</strong>, E. A. Spence, Y. Yu.
-            Restricted additive Schwarz method with local impedance boundary conditions for the time-harmonic Maxwell equation.
-          </div>
-          <div class="pub-list-item" style="margin-bottom: 1.2rem; font-size: 0.95em;">
-            X. Qi, <strong>S. Gong</strong>, Y. Zhang, L. Shen, P. Sun, J. Xu, J. Han, Y. Chen.
-            A comparison of different computational models for numerical simulation of particulate flow in DLD microfluidic chips.
-          </div>
 
-          <h3 style="border-bottom:1px solid #ddd; padding-bottom: .3rem; margin-top:2rem;">2024 &ndash; 2025</h3>
-          <div class="pub-list-item" style="margin-bottom: 1.2rem;">
-            <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-            Y. Zhang, X. Cheng, D. Yi, <strong>S. Gong</strong>, M. Zhou, C. Nan.
-            Dislocation-induced giant dielectric and piezoelectric responses in BaTiO<sub>3</sub> single crystals by phase-field simulations.
-            <em>Acta Materialia</em>, 121469, 2025.
-          </div>
-          <div class="pub-list-item" style="margin-bottom: 1.2rem;">
-            <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-            <strong>S. Gong</strong>, Y.-J. Lee, Y. Li, Y. Yu.
-            Positivity and maximum principle preserving discontinuous Galerkin finite element schemes for a coupled flow and transport.
-            <em>J. Sci. Comput.</em>, 103(1): 20, 2025.
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2405.16117" target="_blank" rel="noopener">arXiv</a>
-          </div>
-          <div class="pub-list-item" style="margin-bottom: 1.2rem;">
-            <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-            J. Galkowski, <strong>S. Gong</strong>, I. G. Graham, D. Lafontaine, E. A. Spence.
-            Schwarz methods with PMLs for Helmholtz problems: fast convergence at high frequency.
-            <em>Proc. 28th Domain Decomposition Conference</em>, 2025.
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2408.16580" target="_blank" rel="noopener">arXiv</a>
-          </div>
-          <div class="pub-list-item" style="margin-bottom: 1.2rem;">
-            <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-            S. Fu, <strong>S. Gong</strong>, G. Li, Y. Wang.
-            On edge multiscale space based hybrid Schwarz preconditioner for Helmholtz problems with large wavenumbers.
-            <em>arXiv:2408.08198</em>, 2024.
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2408.08198" target="_blank" rel="noopener">arXiv</a>
-          </div>
-          <div class="pub-list-item" style="margin-bottom: 1.2rem;">
-            <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-            J. Galkowski, <strong>S. Gong</strong>, I. G. Graham, D. Lafontaine, E. A. Spence.
-            Convergence of overlapping domain decomposition methods with PML transmission conditions applied to nontrapping Helmholtz problems.
-            <em>arXiv:2404.02156</em>, 2024. <span style="color:#7a7a7a; font-size:0.9em;">Submitted to Comm. Pure Appl. Math., under minor revision.</span>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2404.02156" target="_blank" rel="noopener">arXiv</a>
-          </div>
 
-          <h3 style="border-bottom:1px solid #ddd; padding-bottom: .3rem; margin-top:2rem;">2021 &ndash; 2023</h3>
-          <div class="pub-list-item" style="margin-bottom: 1.2rem;">
-            <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-            <strong>S. Gong</strong>, I. G. Graham, E. A. Spence.
-            Convergence of restricted additive Schwarz with impedance transmission conditions for discretised Helmholtz problems.
-            <em>Math. Comp.</em>, 92(339): 175&ndash;215, 2023.
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2110.14495" target="_blank" rel="noopener">arXiv</a>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://doi.org/10.1090/mcom/3772" target="_blank" rel="noopener">DOI</a>
-          </div>
-          <div class="pub-list-item" style="margin-bottom: 1.2rem;">
-            <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-            <strong>S. Gong</strong>, M. J. Gander, I. G. Graham, D. Lafontaine, E. A. Spence.
-            Convergence of parallel overlapping domain decomposition methods for the Helmholtz equation.
-            <em>Numer. Math.</em>, 152: 259&ndash;306, 2022.
-            <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2106.05218" target="_blank" rel="noopener">arXiv</a>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://doi.org/10.1007/s00211-022-01318-8" target="_blank" rel="noopener">DOI</a>
-          </div>
-          <div class="pub-list-item" style="margin-bottom: 1.2rem;">
-            <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-            <strong>S. Gong</strong>, M. J. Gander, I. G. Graham, E. A. Spence.
-            A variational interpretation of restricted additive Schwarz with impedance transmission condition for the Helmholtz problem.
-            <em>Proc. Int. Conf. on Domain Decomposition Methods (DD26)</em>, 2021.
-          </div>
-          <div class="pub-list-item" style="margin-bottom: 1.2rem;">
-            <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-            <strong>S. Gong</strong>, I. G. Graham, E. A. Spence.
-            Domain decomposition preconditioners for high-order discretisations of the heterogeneous Helmholtz equation.
-            <em>IMA J. Numer. Anal.</em>, 41(3): 2139&ndash;2185, 2021.
-            <a class="btn btn-primary btn-outline btn-xs" href="https://doi.org/10.1093/imanum/draa080" target="_blank" rel="noopener">DOI</a>
-          </div>
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Oral/Poster Presentations</h1>
+    
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
 
-          <h3 style="border-bottom:1px solid #ddd; padding-bottom: .3rem; margin-top:2rem;">2017 &ndash; 2019</h3>
-          <div class="pub-list-item" style="margin-bottom: 1.2rem;">
-            <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-            <strong>S. Gong</strong>, S. Wu, J. Xu.
-            New hybridized mixed methods for linear elasticity and optimal multilevel solvers.
-            <em>Numer. Math.</em>, 141: 569&ndash;604, 2019.
-            <a class="btn btn-primary btn-outline btn-xs" href="https://doi.org/10.1007/s00211-018-1001-3" target="_blank" rel="noopener">DOI</a>
-          </div>
-          <div class="pub-list-item" style="margin-bottom: 1.2rem;">
-            <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-            <strong>S. Gong</strong>, X.-C. Cai.
-            A nonlinear elimination preconditioned inexact Newton method for heterogeneous hyperelasticity.
-            <em>SIAM J. Sci. Comput.</em>, 41(5): S390&ndash;S408, 2019.
-            <a class="btn btn-primary btn-outline btn-xs" href="https://doi.org/10.1137/18M1194936" target="_blank" rel="noopener">DOI</a>
-            <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/Psywah/anisotropy-elasticity" target="_blank" rel="noopener">Code</a>
-          </div>
-          <div class="pub-list-item" style="margin-bottom: 1.2rem;">
-            <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-            <strong>S. Gong</strong>, X.-C. Cai.
-            A nonlinear elimination preconditioned Newton method with applications in arterial wall simulation.
-            <em>Proc. Int. Conf. on Domain Decomposition Methods (DD24)</em>, 353&ndash;361, 2019.
-          </div>
-          <div class="pub-list-item" style="margin-bottom: 1.2rem;">
-            <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-            S. Wu, <strong>S. Gong</strong>, J. Xu.
-            Interior penalty mixed finite element methods of any order in any dimension for linear elasticity with strongly symmetric stress tensor.
-            <em>Math. Models Methods Appl. Sci.</em>, 27(14): 2711&ndash;2743, 2017.
-            <a class="btn btn-primary btn-outline btn-xs" href="https://doi.org/10.1142/S0218202517500567" target="_blank" rel="noopener">DOI</a>
-          </div>
-          <div class="pub-list-item" style="margin-bottom: 1.2rem;">
-            <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-            W. Hao, <strong>S. Gong</strong>, S. Wu, J. Xu, M. R. Go, A. Friedman, D. Zhu.
-            A mathematical model of aortic aneurysm formation.
-            <em>PLOS ONE</em>, 12(2): e0170807, 2017.
-            <a class="btn btn-primary btn-outline btn-xs" href="https://doi.org/10.1371/journal.pone.0170807" target="_blank" rel="noopener">DOI</a>
-          </div>
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
+  <i class="fa fa-comment-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="name"><a href="http://shihua-gong.org/talk/2021siam/">Convergence of Restricted additive Schwarz method with local impedance conditions for the Helmholtz equation</a></span>
+  <div itemprop="startDate">
+    
+    Mar 6, 2021
+    
+      3:00 PM
+    
+  </div>
+  <div class="talk-metadata">
+    
+            SIAM Conference on Computational Science and Engineering
+    
+  </div>
+  <div class="talk-links">
+    
 
-          <p style="margin-top: 2rem; padding: 0.8rem 1rem; background:#f1f5fa; border-left: 4px solid #1f3a5f; font-size: 0.85em; color: #555;">
-            <sup>*</sup> denotes corresponding author. See <a href="https://scholar.google.ro/citations?user=Wz1lajQAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a> for citations and <a href="/files/cv-gong-20260528.pdf" target="_blank" rel="noopener">the CV</a> for the full record.
-          </p>
 
-        </div>
-      </div>
+
+
+
+
+
+
+
+  </div>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
+  <i class="fa fa-comment-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="name"><a href="http://shihua-gong.org/talk/2020dd26/">Convergence of overlapping domain decomposition methods for the Helmholtz  equation</a></span>
+  <div itemprop="startDate">
+    
+    Dec 6, 2020
+    
+      3:00 PM
+    
+  </div>
+  <div class="talk-metadata">
+    
+            the 26th International Domain Decomposition Conference
+    
+  </div>
+  <div class="talk-links">
+    
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
+  <i class="fa fa-comment-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="name"><a href="http://shihua-gong.org/talk/2019strathclyde/">An Analysis of a Schwarz preconditioner for heterogeneous Helmholtz problems</a></span>
+  <div itemprop="startDate">
+    
+    Jun 26, 2019
+    
+      3:00 PM
+    
+  </div>
+  <div class="talk-metadata">
+    
+            the 28th edition of the Biennial Numerical Analysis Conference
+    
+  </div>
+  <div class="talk-links">
+    
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
+  <i class="fa fa-comment-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="name"><a href="http://shihua-gong.org/talk/2018pp/">An Analysis of Nonlinear Elimination Preconditioned Newton&#39;s method</a></span>
+  <div itemprop="startDate">
+    
+    Mar 7, 2018
+    
+      1:00 PM
+    
+  </div>
+  <div class="talk-metadata">
+    
+            SIAM Conference on Parallel Processing for Scientific Computing
+    
+  </div>
+  <div class="talk-links">
+    
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
+  <i class="fa fa-comment-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="name"><a href="http://shihua-gong.org/talk/2017petsc/">A Nonlinear Elimination Preconditioned Newton’s Method for Hyperelasticity</a></span>
+  <div itemprop="startDate">
+    
+    Jun 14, 2017
+    
+      12:00 AM
+    
+  </div>
+  <div class="talk-metadata">
+    
+            PETSc USER MEETING 2017
+    
+  </div>
+  <div class="talk-links">
+    
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://shihua-gong.org/files/poster/2017NE-IN-poster.pdf">
+  PDF
+</a>
+
+
+
+
+
+
+
+  </div>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
+  <i class="fa fa-comment-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="name"><a href="http://shihua-gong.org/talk/2017copper/">A Robust Multilevel Solver for a New Hybridizable Mixed Discretization of Linear Elasticity</a></span>
+  <div itemprop="startDate">
+    
+    Mar 26, 2017
+    
+      3:00 PM
+    
+  </div>
+  <div class="talk-metadata">
+    
+            18th Copper Mountain Conference On Multigrid Methods
+    
+  </div>
+  <div class="talk-links">
+    
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://shihua-gong.org/files/slide/201703Copper.pdf">
+  Slides
+</a>
+
+
+
+
+
+
+  </div>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
+  <i class="fa fa-comment-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="name"><a href="http://shihua-gong.org/talk/2015iciam/">A Hybridizable Mixed Finite Element Method for Planar Linear Elasticity</a></span>
+  <div itemprop="startDate">
+    
+    Aug 10, 2015
+    
+      1:00 PM
+    
+  </div>
+  <div class="talk-metadata">
+    
+            The 8th International Congress on Industrial and Applied Mathematics
+    
+  </div>
+  <div class="talk-links">
+    
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://shihua-gong.org/files/slide/iciam2015.pdf">
+  Slides
+</a>
+
+
+
+
+
+
+  </div>
+</div>
+
+      
+    
+  </div>
+</div>
+
     </div>
   </section>
+  
 
-
-
-
-  <section id="talks" class="home-section" style="background-color: #f8f9fa;">
+  
+  
+  
+  <section id="teaching" class="home-section">
     <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-4 section-heading">
-          <h1>Talks</h1>
-          <p style="font-size: 0.9em; color: #7a7a7a;">
-            Selected plenary, invited, and seminar talks since 2017. Full list in the <a href="/files/cv-gong-20260528.pdf" target="_blank" rel="noopener">CV</a>.
-          </p>
-        </div>
-        <div class="col-xs-12 col-md-8">
+      
 
-          <h3 style="border-bottom:1px solid #ddd; padding-bottom: .3rem;">Plenary &amp; Keynote</h3>
-          <ul style="list-style:none; padding-left:0;">
-            <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
-              <strong>Plenary speaker</strong>, IRC International Conference on Multi-Grid and Multi-Scale Methods in Computational Science.
-              <span style="color:#7a7a7a;">KAUST, Saudi Arabia &middot; Feb 3&ndash;5, 2025.</span>
-              <a href="https://www.kaust.edu.sa/html/img25/" target="_blank" rel="noopener" style="font-size:0.85em;">link</a>
-            </li>
-            <li style="padding: 0.5rem 0;">
-              <strong>Invited Conference talk</strong>, International Congress of Chinese Mathematicians (ICCM).
-              <span style="color:#7a7a7a;">2025 (held Apr 1, 2026).</span>
-            </li>
-          </ul>
 
-          <h3 style="border-bottom:1px solid #ddd; padding-bottom: .3rem; margin-top: 2rem;">Invited Minisymposium Talks</h3>
-          <ul style="list-style:none; padding-left:0;">
-            <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
-              Fast Solvers for Numerical PDEs, HKSIAM Biennial Conference.
-              <span style="color:#7a7a7a;">CUHK, Hong Kong &middot; Jul 7&ndash;11, 2025.</span>
-            </li>
-            <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
-              International Conference on Domain Decomposition Methods (DD29).
-              <span style="color:#7a7a7a;">Milan, Italy &middot; Jun 23&ndash;27, 2025.</span>
-            </li>
-            <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
-              15th International Conference on Large-Scale Scientific Computations.
-              <span style="color:#7a7a7a;">Sozopol, Bulgaria &middot; Jun 16&ndash;20, 2025.</span>
-            </li>
-            <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
-              PREC24 Conference on Preconditioning.
-              <span style="color:#7a7a7a;">Georgia Tech, Atlanta, USA &middot; Jun 11, 2024.</span>
-            </li>
-            <li style="padding: 0.5rem 0;">
-              International Conference on Domain Decomposition Methods (DD28).
-              <span style="color:#7a7a7a;">KAUST, Saudi Arabia &middot; Jan 28 &ndash; Feb 1, 2024.</span>
-            </li>
-          </ul>
+<div class="row">
+  
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Teaching</h1>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    <ul>
+<li>Lecturer, Topics in Scientific Computing, CUHK-Shenzhen, Jan-May 2025</li>
+<li>Lecturer, Linear Algebra, CUHK-Shenzhen, Aug-Dec 2024</li>
+<li>Lecturer, Calculus II, CUHK-Shenzhen, Jan-May 2024</li>
+<li>Lecturer, Numerical Methods for Differential Equations, CUHK-Shenzhen, Jan-May 2024</li>
+<li>Lecturer, Calculus II, CUHK-Shenzhen, Jan-May 2023</li>
+<li>Lecturer, Topics in Scientific Computing, CUHK-Shenzhen, Sept-Dec 2022</li>
+<li>Lecturer, Functional Analysis, CUHK-Shenzhen, Jan-May 2022</li>
+<li>Tutor, Programming and discrete mathematics, University of Bath, Jan-May 2021</li>
+<li>Teaching Assistant, Finite Element Methods, Pennsylvania State University, Aug-Dec 2018</li>
+<li>Teaching Assistant, Introduction to Fluid Mechanics, Peking University, Mar-Jul 2015</li>
+<li>Teaching Assistant, Functions of Real Variable and Functional Analysis, Peking University, Sept-Jan 2015</li>
+<li>Teaching Assistant, Linear Algebra, Peking University, Mar-Jul 2014</li>
+</ul>
 
-          <h3 style="border-bottom:1px solid #ddd; padding-bottom: .3rem; margin-top: 2rem;">Selected Seminars &amp; Workshops</h3>
-          <ul style="list-style:none; padding-left:0;">
-            <li style="padding: 0.4rem 0; border-bottom: 1px solid #eee;">SSE Weekly Colloquium, CUHK-Shenzhen. <span style="color:#7a7a7a;">Nov 30, 2025.</span></li>
-            <li style="padding: 0.4rem 0; border-bottom: 1px solid #eee;">Seminar on Fast Solvers in Scientific Computing, Tongji University. <span style="color:#7a7a7a;">Nov 27, 2025.</span></li>
-            <li style="padding: 0.4rem 0; border-bottom: 1px solid #eee;">14th China Mathematical Society Computational Mathematics Biennial Conference. <span style="color:#7a7a7a;">Aug 20, 2025.</span></li>
-            <li style="padding: 0.4rem 0; border-bottom: 1px solid #eee;">Seminar at Edinburgh University (host: Kaibo Hu). <span style="color:#7a7a7a;">Jun 9, 2025.</span></li>
-            <li style="padding: 0.4rem 0; border-bottom: 1px solid #eee;">4th Guangdong&ndash;Hong Kong&ndash;Macao Conference on Computational Science. <span style="color:#7a7a7a;">May 17, 2025.</span></li>
-            <li style="padding: 0.4rem 0; border-bottom: 1px solid #eee;">Workshop on Advanced Solvers for Frequency-Domain Wave Problems and Applications, TSIMF Sanya. <span style="color:#7a7a7a;">Jan 20&ndash;24, 2025.</span></li>
-            <li style="padding: 0.4rem 0; border-bottom: 1px solid #eee;">Workshop on SC and AI @ BIMSA. <span style="color:#7a7a7a;">Nov 3, 2024.</span></li>
-            <li style="padding: 0.4rem 0; border-bottom: 1px solid #eee;">CSIAM Annual Meeting, Nanjing. <span style="color:#7a7a7a;">Oct 27, 2024.</span></li>
-            <li style="padding: 0.4rem 0; border-bottom: 1px solid #eee;">International Conference on Applied Mathematics, CityU of Hong Kong. <span style="color:#7a7a7a;">Jun 1, 2024.</span></li>
-            <li style="padding: 0.4rem 0; border-bottom: 1px solid #eee;">ICIAM, Tokyo, Japan. <span style="color:#7a7a7a;">Aug 20&ndash;25, 2023.</span></li>
-            <li style="padding: 0.4rem 0; border-bottom: 1px solid #eee;">International Conference on Domain Decomposition Methods (DD27, mixed mode), Prague. <span style="color:#7a7a7a;">Jul 25&ndash;29, 2022.</span></li>
-            <li style="padding: 0.4rem 0;">Huawei&ndash;CUHKSZ Workshop on Mathematical Problems in Industry, Shenzhen. <span style="color:#7a7a7a;">Jul 8, 2022.</span></li>
-          </ul>
+  </div>
+  
+</div>
 
-          <h3 style="border-bottom:1px solid #ddd; padding-bottom: .3rem; margin-top: 2rem;">Conference &amp; Workshop Organization</h3>
-          <ul style="list-style:none; padding-left:0;">
-            <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
-              <strong>Minisymposium organizer (DD29)</strong> &mdash; Robust Parallel Solvers for Linear, Nonlinear, and Multi-Physics Problems, 12 talks.
-              <span style="color:#7a7a7a;">Milan, Italy &middot; Jun 23&ndash;27, 2025.</span>
-              <a href="http://dd29.polimi.it" target="_blank" rel="noopener" style="font-size:0.85em;">link</a>
-            </li>
-            <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
-              <strong>Lead organizer</strong>, Workshop on Advanced Solvers for Frequency-Domain Wave Problems and Applications, 50 participants.
-              <span style="color:#7a7a7a;">Tsinghua Sanya International Mathematics Forum &middot; Jan 20&ndash;24, 2025.</span>
-              <a href="http://www.tsimf.cn/meeting/detail?id=394" target="_blank" rel="noopener" style="font-size:0.85em;">link</a>
-            </li>
-            <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
-              <strong>Organizing committee chair</strong>, Summer School on Scientific Computing and Machine Learning, 28 lecturers, 104 students.
-              <span style="color:#7a7a7a;">CUHK-SZ &middot; CUHK &middot; SRIBD, Jul 8&ndash;19, 2024.</span>
-              <a href="http://multigrid.org/school24/" target="_blank" rel="noopener" style="font-size:0.85em;">link</a>
-            </li>
-            <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
-              <strong>Lead organizer</strong>, Workshop on Numerical Algorithms for Microfluidic Chip Simulations, 13 talks.
-              <span style="color:#7a7a7a;">Shenzhen ICIAM &middot; May 18&ndash;20, 2024.</span>
-            </li>
-            <li style="padding: 0.5rem 0;">
-              <strong>Lead organizer</strong>, Minisymposium at DD27 &mdash; Parallel Solvers for Helmholtz Problems, 10 talks.
-              <span style="color:#7a7a7a;">Prague, Czech Republic &middot; Jul 25&ndash;29, 2022.</span>
-              <a href="https://www.dd27.cz/program/minisymposia" target="_blank" rel="noopener" style="font-size:0.85em;">link</a>
-            </li>
-          </ul>
-
-        </div>
-      </div>
     </div>
   </section>
+  
+
+  
+  
   
   <section id="contact" class="home-section">
     <div class="container">
