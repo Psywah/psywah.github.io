@@ -1,0 +1,641 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage{hyperref}
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+\usepackage{url}
+
+
+% Set your name here
+\def\name{Shihua Gong}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {mathematics, numerical method, multigrid},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.8in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+%\renewenvironment{itemize}{
+ % \begin{list}{}{
+  %  \setlength{\leftmargin}{1.5em}
+  %}
+%}{
+%  \end{list}
+%}
+
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{graphicx} 
+
+\begin{document}
+
+% Place name at left
+{\huge \bf \name: Curriculum Vitae}
+
+\rule{12cm}{0.02cm}
+%\rule[lift]{width}{thickness}
+%\hline
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+%\vspace{0.3in}
+
+
+\begin{minipage}{0.55\linewidth}
+ZR314, School  of Science and Engineering\\
+ The Chinese University of Hong Kong, Shenzhen\\
+518172, China 
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Phone: & (+86) 178-8880-4563\\
+    Email: & \href{mailto:gongshihua@cuhk.edu.cn}{\tt gongshihua@cuhk.edu.cn} \\
+    Web:& \url{http://shihua-gong.org}
+  \end{tabular}
+\end{minipage}
+
+
+%\begin{minipage}{0.55\linewidth}
+%316 McAllister Building, Pennsylvania State U\\
+%University Park\\
+%PA 16802, USA 
+%\end{minipage}
+%\begin{minipage}{0.45\linewidth}
+%  \begin{tabular}{ll}
+%    Phone: & (+1) 814-699-2380 \\
+%    Email: & \href{mailto:sug246@psu.edu}{\tt sug246@psu.edu.cn} \\
+%    Web:& \url{http://shihua-gong.org}
+%  \end{tabular}
+%\end{minipage}
+
+%
+%\begin{minipage}{0.65\linewidth}
+%Beijing International Center for Mathematical Research\\
+%Peking University, Beijing 100871, P. R. China\\
+%\\
+%Phone:  (+86) 178-8880-4563\\
+%Email: \href{mailto:gongshihua@pku.edu.cn}{\tt gongshihua@pku.edu.cn} \\
+%Web: \url{http://dsec.pku.edu.cn/~gong} 
+%\end{minipage}
+%\begin{minipage}{0.35\linewidth}
+%\vspace{-2cm}\hspace{.5cm}
+%\includegraphics[width=.7\linewidth]{shihuaGong.jpg}
+%\end{minipage}
+%
+%\vspace{-.5cm}
+
+\section*{Research Interests}
+\begin{itemize}[leftmargin=*]
+\item numerical analysis,  finite element methods, multigrid, domain decomposition,  nonlinear solvers; 
+\item high-frequency wave propagation,  fluid-structure interaction; 
+ \item  scientific computing and artificial intelligence for multiphysics  simulation.
+\end{itemize}
+
+%\vspace{-.5cm}
+\section*{Education}
+
+\textbf{%Beijing International Center for Mathematical Research, 
+Peking University,} Beijing, China\\
+\quad \quad Sept. 2013 - July 2018,  \quad\quad  PhD  in Computational Mathematics,  \quad %$\star$
+Advisors:  { Jinchao Xu and Jun Hu } \\
+Thesis: Finite element discretization and fast solvers for elastic problems
+\\
+
+\textbf{Sun Yat-sen University,} Guangzhou, China\\
+\quad \quad Sept. 2009 - June 2013, \quad \quad BS in Information and Computational Science, %\quad Advisor:  {Ying Jiang} 
+\\
+Thesis: Accurate and fast Fourier transform using non-uniformly sampled data
+
+\section*{Work Experience}
+\textbf{School  of Science and Engineering, The Chinese University of Hong Kong, Shenzhen}, GD, China\\
+\quad\quad Dec. 2021 -- present,  \quad\quad  Assistant Professor\\
+
+\textbf{Department  of Mathematical Sciences, University of Bath}, Bath, UK\\
+\quad \quad Mar. 2019 -- Dec. 2021, \quad\quad  Research associate, \quad \quad Mentors:  Ivan G. Graham and Euan A. Spence\\
+Project: Fast solvers for frequency-domain wave scattering problems\\
+
+\textbf{Department  of Mathematics, Pennsylvania State University}, State College, USA\\
+\quad \quad Aug. 2018 - Mar. 2019, \quad\quad  Postdoctoral scholar,  \quad Mentor: Jinchao Xu\\
+Project: Discontinuous Galerkin methods for wave equations\\
+
+%\vspace{-.5cm}
+
+
+
+%\vspace{-.5cm}
+\section*{Publications}
+
+\hfill {\bf *} indicates that I am the corresponding author
+
+\begin{enumerate}[label={[\arabic*]},leftmargin=*]
+
+
+
+\item J. Galkowski, {\bf S.~Gong}, I. G. Graham, D. Lafontaine, E. A. Spence.
+Convergence of overlapping domain decomposition methods with PML transmission conditions applied to nontrapping Helmholtz problems   \emph{arXiv:2404.02156}.  (2024) \href{https://arxiv.org/abs/2404.02156}{PDF (58 pages)} {\bf submitted to Communications on Pure and Applied Mathematics, under minor revision} 
+
+\item  Q. Xin, {\bf S. Gong}$^*$, L. Shen,  P. Wen, Y. Zhang, Y. Chen, J. Han, J. Xu, High-order DLM-ALE discretizations with robust operator preconditioning for fluid-rigid-body interaction, \emph{arXiv:2602.01094}, (2026),   \href{https://arxiv.org/abs/2602.01094}{PDF}%, submitted to JCP
+
+\item L. Shen, Q. Xin, Y. Chen, J. Han, J. Xu, Y. Zhang, {\bf S. Gong}$^*$, A monolithic localized high-order ALE finite element method for multi-scale fluid-structure interaction problems , \emph{arXiv:2602.02003}, (2026),  \href{https://arxiv.org/abs/2602.02003}{PDF}%,% submitted to CMAME
+
+\item Y.~Xie, {\bf S.~Gong}$^*$, I. G. Graham, E. A. Spence, C.-S. Zhang, Massively parallel Schwarz methods for the high frequency Helmholtz equation, \emph{the proceeding of 29th Domain
+  Decomposition Conference.}  (2026) \href{https://arxiv.org/abs/2602.00735}{PDF}
+%本人为通信作者，负责文章算法原型的设计，性能优化目标规划，数值试验设计，文章撰写与投稿。
+
+\item Y. Zhang, X. Cheng, D. Yi, {\bf S. Gong}, M. Zhou, and C. Nan. Dislocation-induced giant dielectric and piezoelectric responses in BaTiO3 single crystals by phase-field simulations. \emph{Acta Materialia}, p.121469. (2025)
+
+
+
+\item {\bf S.~Gong}, Y. J. Lee, Y. Li, Y. Yu,  Positivity and maximum principle preserving discontinuous Galerkin finite element schemes for a coupled flow and transport.  Journal of Scientific Computing 103, no. 1 (2025): 20.  \href{https://arxiv.org/abs/2405.16117}{PDF}
+
+
+
+
+
+
+
+\item J. Galkowski, {\bf S.~Gong}, I. G. Graham, D. Lafontaine, E. A. Spence.
+Schwarz methods with PMLs for Helmholtz problems: fast convergence at high frequency.   \emph{the proceeding of 28th Domain
+  Decomposition Conference.}.  (2025) \href{https://arxiv.org/abs/2408.16580}{PDF} 
+%文章为增强区域分解法的工程实用性，提出并验证重叠宽度与PML厚度随波数增大而减小的设定，测试表明在降低通信与额外自由度开销的同时，重叠Schwarz（并行/串行）方法仍能保持鲁棒收敛。本人为算法设计者，负责实验方案与参数对比；为程序开发者，完成实现、算例计算与图表；并作为主要撰稿人和通讯作者负责论文写作与投稿。
+
+\item S. Fu, {\bf S. Gong}, G. Li, Y Wang. On Edge Multiscale Space based Hybrid Schwarz Preconditioner
+for Helmholtz Problems with Large Wavenumbers. \emph{arXiv:2408.08198 }. (2024) \href{https://arxiv.org/abs/2408.08198}{PDF}
+
+
+      \item {\bf S.~Gong}, I. G. Graham, E. A. Spence.  Convergence of Restricted Additive Schwarz with impedance transmission conditions for discretised Helmholtz problems,  {\bf\emph{Math. Comp.}}.  92.339 (2023): 175-215. \href{https://community.ams.org/journals/mcom/2023-92-339/S0025-5718-2022-03772-8/S0025-5718-2022-03772-8.pdf}{PDF (48 pages)}
+       
+  \item  {\bf S.~Gong}, M. J. Gander, I. G. Graham, D. Lafontaine,  E. A. Spence. Convergence of parallel overlapping domain decomposition methods for the Helmholtz equation.    {\bf\emph{Numer. Math.}}. 152.2 (2022): 259-306. \href{https://link.springer.com/article/10.1007/s00211-022-01318-8}{PDF (41 pages)}
+  
+  
+    
+\item {\bf S.~Gong}, I. G. Graham, E. A. Spence,   Domain decomposition preconditioners for high-order discretizations of the heterogeneous Helmholtz equation.  {\bf\emph{IMA J.  Numer. Anal.}}. 41(3):2139-85 (2021). \href{https://doi.org/10.1093/imanum/draa080}{PDF (46 pages)} 
+
+ 
+ 
+
+    \item  {\bf S.~Gong}, M. J. Gander, I. G. Graham, E. A. Spence.  A variational interpretation of Restricted Additive Schwarz with impedance transmission condition for the Helmholtz problem.   the proceeding of 26th Domain
+  Decomposition Conference.  (2021). \href{https://arxiv.org/abs/2103.11379}{PDF}
+
+
+  \item {\bf S.~Gong}, X.-C. Cai.   A nonlinear elimination preconditioned inexact Newton method for heterogeneous hyperelasticity.
+   \emph{\bf SIAM J. Sci. Comp.. } 41(5): S390-S408 (2019). \href{https://doi.org/10.1137/18M1194936}{PDF} (highly cited by nonlinear preconditioning papers)
+	
+	
+
+\item {\bf S.~Gong}, S. Wu, J. Xu.  New hybridized mixed methods for linear elasticity and optimal multilevel solvers. {\bf \emph{Numer. Math.}}. 141: 569-604 (2019). \href{https://doi.org/10.1007/s00211-018-1001-3}{PDF (35 pages)}
+ 
+ 
+
+  
+  
+
+      
+
+
+
+
+\item S. Wu, {\bf S.~Gong},  J. Xu.   Interior penalty mixed finite element methods of any order in any dimension for linear elasticity with strongly symmetric stress tensor.  {\bf\emph{Math. Models Methods Appl. Sci..}} 27.14:2711-2743 (2017). \href{https://doi.org/10.1142/S0218202517500567}{PDF (32 pages)}
+
+
+
+
+
+\item    {\bf S.~Gong}, X.-C. Cai. A nonlinear elimination preconditioned Newton's method with applications in arterial wall simulation.  \emph{the proceeding of 24th Domain  Decomposition Conference.} 353-361, (2018) \href{https://link.springer.com/content/pdf/10.1007/978-3-319-93873-8_33.pdf}{PDF}
+
+
+  
+
+
+
+
+\item W.~Hao, {\bf S.~Gong}, S.~Wu, J.~Xu, M.~R.~Go, A.~Friedman,  D.~Zhu.  A mathematical model of aortic aneurysm formation.  \emph{PloS one}, 12(2): e0170807, (2017). \href{https://doi.org/10.1371/journal.pone.0170807}{PDF}
+
+
+
+ 
+ %\item The following papers are for surviving in the academic field and may not be of high quality
+
+%\begin{enumerate}
+\hspace{-1cm} In progress
+
+
+
+
+\item Y. Xie, {\bf S. Gong}, I G. Graham, E. Spence, Massively parallel domain decomposition methods for solving the Helmholtz equations in $\mathcal{O}(k)$ runtime,  in preparation 
+
+\item L. Cen, {\bf S. Gong}, E. A. Spence, Y. Yu, Restricted additive Schwarz method with local impedance boundary conditions for the time-harmonic Maxwell equation,  in preparation  
+
+
+\item X. Qi, {\bf S. Gong}, Y. Zhang, L. Shen, P. Sun,  J. Xu, J. Han, Y. Chen, A comparison of different computational models for
+numerical simulation of particulate flow in DLD microfluidics chips,  in preparation 
+
+
+
+
+
+
+%\end{enumerate}
+\end{enumerate}
+
+
+\section*{Grants}
+\begin{enumerate}[leftmargin=*]
+
+
+\item 2025 - 2026, Novel Technology Program for Industrial Software, Guangdong ZHGC 
+(RMB 8,861,300), 
+\emph{Novel Structured Arbitrary-Lagrangian--Eulerian Solvers for Fluid--Structure Interactions}, 
+\textbf{Technical Coordinator} 
+(led the overall algorithmic strategy, coordinated technical efforts across five subprojects involving over 20 researchers, chaired regular research and development meetings, and reviewed research progress and milestone deliverables),  (PI: Jinchao Xu @KAUST and SRIBD) 
+
+
+\item 2024 - 2026, International  Cooperation and Exchange Program, National Natural Science Foundation of China,  (RMB 100,000). \emph{Iterative Solvers and Analysis for High-Frequency Hodge Wave Equations}, collaborating project with Kaibo Hu@University of Edinburgh, {\bf\emph{ PI}}
+
+\item 2024 - 2027,  General Program, National Natural Science Foundation of China,  (RMB 435,000, 16\% in CUHK-SZ). \emph{Novel high-order adaptive FEM methods for antenna simulation in frequency-domain}, Co-PI  (PI: Huayi Wei @Xiangtan University)
+
+\item 2023 - 2024, Research and Development Program,  Huawei Technologies Co., Ltd, (RMB 787,800) \emph{Domain decomposition methods for the time-harmonic Maxwell equation}, {\bf\emph{ PI}}
+
+\item 2023 – 2025,  Young Scientists Program,  National Natural Science Foundation of China, (RMB 300,000), \emph{Iterative solvers for Helmholtz equation at high and multi frequencies and convergence analysis}, {\bf\emph{ PI}}
+\item 2023 – 2025, General Program Guangdong Basic and Applied Basic Research Found.,  (RMB 100,000), \emph{Nonlinear and linear preconditioners for multiscale fluid-structure interaction problems with collisions}, {\bf\emph{ PI}}
+\item 2022 – 2025,  Stable Support Plan Program, Shenzhen Natural Science Foundation,  (RBM 287,500), \emph{Scalable solvers for frequency-domain wave equations in complex geometric domain  and heterogeneous media}, {\bf\emph{ PI}}
+
+\item 2022 – 2025, General Program, Shenzhen Natural Science Foundation,  (RBM 300,000), \emph{The effects of geometry and topology on the nonlinear partial differential equations}, Participant (PI: Xingbin Pan)
+\end{enumerate}
+
+%\subsection*{In Preparation}
+%\begin{enumerate}[label={[\arabic*]},leftmargin=*]
+%\item {\newblock A projection-based and symmetry-correction analysis of HDG methods for linear elasticity  on triangular meshes.} with Shuonan Wu and Jinchao Xu.
+%
+%\item {\newblock  An analysis of the nonlinear elimination preconditioned Newton's method.} with Xiao-Chuan Cai.
+%
+% 
+%\end{enumerate}
+
+%
+%\section*{Research Project}
+%\begin{itemize}
+%	\item Overlapping Schwarz method for hybridized mixed system. Sept. 2015 - present
+%	\item Mixed Finite Element Methods for Linear Elasticity, May. 2015 - present
+%	\item Auxiliary Space preconditioner for $H(div, S)$ problem, Mar. 2015 - May. 2015
+% 	\item Participated in a project on DNA assembly, Aug. 2013 - 2014
+%		\begin{itemize}
+%			\item Programming for testing some present algorithm, such as SOAPdenovo and Velvet
+%			\item Transforms the primal problem to a optimization problem
+%		\end{itemize}
+%	\item Participated in a project on face recognition, cooperated with a electronics company, Sept. 2012 - May 2013
+%		\begin{itemize}
+%		\item Developed a C library of PCA, LDA and Fisher classifiers.
+%		\end{itemize}
+%	\item Leaded in a undergraduate project in Sun Yat-sen University: The discrete Fourier transform of high-dimensional data on Heterogeneous multi-core clusters, Sept. 2011- Aug. 2012
+%		\begin{itemize}
+%		\item Developed a C library for DFT on GPU, 9 times faster than FFTW using single precision operations
+%		\end{itemize}
+%	
+%\end{itemize}
+%\vspace{-.7cm}
+
+
+\section*{Teaching Experiences}
+\hfill {\bf *} indicated that I taught for the first time
+\begin{enumerate}[leftmargin=*]
+\item {\bf *} Lecturer, MAT5120, Functional Analysis (graduate level),  CUHK-SZ, Jan-May 2026, 
+\item Lecturer, MAT4010, Functional Analysis,  CUHK-SZ, Jan-May 2026, 
+\item {\bf *} Lecturer, MAT5620, Methods of Applied Math., CUHK-SZ, Sept.-Dec. 2025,
+\item  Lecturer, MAT7620, Topics in Scientific Computing, CUHK-SZ,  Jan-May 2025,
+\item {\bf *} Lecturer, MAT2040, Linear Algebra, CUHK-SZ, Sept.-Dec. 2024,
+\item Lecturer, MAT1002, Calculus II, CUHK-SZ, Jan-May 2024,
+\item {\bf *} Lecturer, MAT4240, Numerical Methods for Diff. Equations, CUHK-SZ, Jan-May 2024,
+\item {\bf *}  Lecturer, MAT1002, Calculus II, CUHK-SZ, Jan-May 2023, 
+
+\item {\bf *} Lecturer, MAT7620, Topics in Scientific Computing,   CUHK-SZ, Sept-Dec 2022, 
+\item {\bf *} Lecturer, MAT4010, Functional Analysis,  CUHK-SZ, Jan-May 2022, 
+ 
+\item Tutor, Programming and discrete mathematics, University of Bath, UK, Jan-May 2021  
+\item Teaching Assistant, Finite Element Methods, Pennsylvania State University, USA, Aug-Dec 2018
+\item Teaching Assistant, Introduction to Fluid Mechanics, Peking University, Mar-Jul 2015
+\item Teaching Assistant, Functions of Real Variable and Functional Analysis, PKU, Sept 2014 - Jan 2015
+\item Teaching Assistant, Linear Algebra, Peking University, Mar-Jul 2014
+\end{enumerate}
+
+
+
+\section*{Mentoring}
+\begin{itemize}[leftmargin=*]
+\item Postdocs: Tian Tian (2025-2027), Luyu Cen (2023-2025)
+\item PhD students: Qi Xin (2023-2027), Yue Yu (2023-2027), Jiahao Ma (2026-2030), Liuming Zeng (2026-2030), Yuziheng Wu (2026-2030)
+\item MPhil students: Xiang Zhou (2025-2027), Jinkai Zheng (2023-2025)  
+\item Visiting students: Linghan Huang (2025-2026), Yan Xie (2024-2025)
+\end{itemize}
+
+
+
+\section*{Seminar and Conference Organization}
+\begin{itemize}[leftmargin=*]
+\item  Minisymposia in DD29: \emph{Robust parallel solvers for linear, nonlinear, and multi-physics problems}, 12 talks,
+The 29th International Domain Decomposition Conference, in Milan, Italy. June 23-27, 2025. Organized with Wei Wang and Chensong Zhang, \url{http://dd29.polimi.it}
+
+\item Workshop on Advanced Solvers for Frequency-Domain Wave Problems and Applications, 50 participants, Hosted at Tsinghua Sanya International Mathematics Forum, January 20-24, 2025, Served as the leading organizer,  \url{http://www.tsimf.cn/meeting/detail?id=394} 
+
+\item Summer School on Scientific Computing and Machine Learning, 28 lecturers and 104 students, Joint Organizing by CUHK-SZ, CUHK, and Shenzhen Research Institute of Big Data, July 08-19, 2024. Served as the chair in the organizing committee,  \url{http://multigrid.org/school24/} 
+\item Workshop on Numerical Algorithms for
+Microfluidic Chip Simulations, 13 talks, Hosted at Shenzhen International Center for Industrial and Applied Mathematics, May 18-20, 2024. Serve as the leading organizer
+\item  Minisymposia (mixed mode)  DD27: \emph{Parallel Solvers for Helmholtz Problems}, 10 talks,
+The 27th International Domain Decomposition Conference, in Prague, Czech Republic. July 25-29, 2022. Served as the leading organizer, \url{https://www.dd27.cz/program/minisymposia}
+\end{itemize}
+
+%
+\section*{Academic Visits}
+\hfill {\bf*} indicates that financial support was given by the host
+\noindent
+\begin{tabularx}{\linewidth}{@{}>{\bfseries}l@{\hspace{.5em}}X@{}l@{\hspace{.0em}}X@{}}
+{\bf *} June 9-15, 2025& School of Math., The University of Edinburgh &Host: Kaibo Hu\\
+June 1-8, 2025& Depart. of Math. Sci., University of Bath &Host: Euan A. Spence\\
+{\bf *} Sept. 26-31, 2024&    Depart.  of Math., Tongji University &Host: Xuejun Xu\\
+{\bf *} Mar. 2-7, 2020&             Section de Mathématiques, Université de Genève & Host: Martin J. Gander\\
+Jan. 26-31, 2020&             Depart.  of Math. \& Stat., University of Strathclyde & Host: Victorita Dolean\\
+{\bf *} Dec. 15-21, 2019&		School of Math. Sci., Peking University & Host: Shuonan Wu\\
+{\bf *} Dec. 1-12, 2019&		Depart. of Math., The Chinese University of Hong Kong  & Host:  Jun Zou \\
+Nov. 2016 - Sep. 2017&		 Depart. of Comput. Sci., University of Colorado Boulder & Host:  Xiao-Chuan Cai\\
+%Nov. 2016 -- Feb. 2017&		 Department of Mathematics, Pennsylvania State University. Host:  Jinchao Xu\\
+{\bf *} Sep. 2015 -- Mar. 2016&		 Depart. of Math., Pennsylvania State University & Host:  Jinchao Xu
+\end{tabularx}
+
+\section*{Honor and Awards}
+\begin{itemize}[leftmargin=*]
+\item 2025-2026, {\bf Presidential Young Fellow, Talent Program of High-Level University, CUHK, Shenzhen}
+\item 2024-2026, {\bf Pearl River Young Talent, Guangdong Provincial  Talent Programme} 
+\item 2016-2017, National Scholarship, Department of Education, China
+\item 2013-2016, Graduate Scholarship, Peking University
+\item 2010-2012,  Undergraduate Scholarship, Outstanding Graduate Award 2013, Sun Yat-sen University
+\item 2011, the second prize, China Undergraduate Mathematical Contest in Modeling, CSIAM
+\item 2009-2010, National Scholarship, Department of Education, China
+\end{itemize}
+
+
+\section*{Plenary / Invited Conference Talks}
+\begin{itemize}[leftmargin=*]
+\item {\bf Plenary talk}, IMG, International Research Conference on Multi-Grid and Multi-Scale Methods in Computational Science, KAUST, Feb 3-5, 2025, \url{https://www.kaust.edu.sa/html/img25/}
+
+\item Invited Conference talk, 2025 International Congress of Chinese Mathematicians, 04-01-2026
+
+
+
+\end{itemize}
+
+
+\section*{Invited Minisymposium Talks}
+
+\begin{itemize}[leftmargin=*]
+
+
+ 
+\item Invited  Minisymposium talk, Fast Solvers for Numerical PDEs, HKSIAM Biennial Conference, CUHK, Hong Kong, July 07-11 2025
+
+
+\item Invited Minisymposium  talks, International Conference of Domain decomposition methods, Milano, {\bf Italy}, June 23- 27, 2025
+
+
+
+\item Invited Minisymposium  talks,  15th International Conference on Large-Scale Scientific Computations, {\bf  Sozopol, Bulgaria}
+June 16-20, 2025,
+
+
+\item  Invited  Minisymposium talk,  {\bf PREC24} @ Georgia Tech, Atlanta, {\bf  USA}, 11-06-24, \url{https://www.math.emory.edu/~yxi26/Precond24/accepted.html}
+
+
+\item Invited Minisymposium talk, International Conference of Domain decomposition methods, KAUST, Jeddah, {\bf Saudi-Arabia}, Jan 28- Feb 1, 2024
+
+
+\end{itemize}
+
+\section*{ Seminar \& Colloquium \& Workshops, Contributed Talks}
+
+\begin{itemize}[leftmargin=*]
+
+
+
+\item  Colloquium talk, SSE Weekly Colloquium, CUHK-SZ, 30-11-2025 
+
+ \item Workshop talk, Seminar on fast solvers in scientific computing, Tongji University, 27-11-25
+ 
+ 
+\item Workshop talk ,  JingJinJi+Jinan Computational Mathematics Conference, 22-08-2025
+
+\item Workshop talk, The 14th China Mathematical Society Computational Mathematics
+Biennial Conference, 20-08-2025
+
+
+\item   Seminar talk invited by  Kaibo Hu,  Edinburgh University, June 09 2025
+
+\item   Seminar talk invited by Huayi Wei,  Shuyun Seminar at Xiangtan University, May 24 2025
+
+\item Workshop talk, The 4th Guangdong-Hong Kong-Macao Conference on Computational Science, May 17 2025
+
+\item Workshop talk, Seminar on Mathematical Theory for FEM and DL,
+Nanjing Normal University, Mar. 28-31, 2025
+
+\item Workshop talk, Seminar on Numerical Computational Methods and Applications,
+Sichuan University, Mar. 28-31, 2025
+
+\item Workshop talk, Workshop on Advanced Solvers for Frequency-Domain Wave Problems and Applications, TSIMF, Jan 20-24, 2025
+
+
+
+\item  Seminar talk invited  by  Zihao Ge, Henan University, 10-01-2025
+\item  Workshop talk, Mathematics and Interdisciplinary Research Seminar, Tongji University, 15-12-2024
+\item  Seminar talk invited  by Huangxing Chen, Xiamen University,  29-11-2024
+\item Workshop talk,  Workshop on SC and AI @ BIMSA, 03-11-2024
+\item Workshop talk, CSIAM, Nanjing,  27-10-2024
+
+
+\item Seminar talk invited  by Prof. Xuejun Xu, Tongji University, 27-09-2024
+
+\item Workshop talk, {The 1st Young Scholars's Workshop on Finite Element Method}, Chengdu, 18-08-2024
+
+\item Workshop talk, 2024 J$^{3+}$ Computational Mathematics  Workshop, Hohhot, 23-08-2024
+
+
+\item Summer Course, CUHK-SZ and CUHK join summer school on scientific computing and machine learning, (08-19)-07-2024,
+
+\item Seminar talk invited by Prof. Yong Liu at LSEC, Academy of Math. and Systems Sci., 24-06-2024
+
+\item Workshop talk,  Guangdong–Hong Kong–Macao Workshop on Computational Science, 15-06-2024
+
+
+%\item Invited talk,  {\bf PREC24} @ Georgia Tech, Atlanta, {\bf  USA}, 11-06-24,\url{https://www.math.emory.edu/~yxi26/Precond24/accepted.html}
+
+
+\item Workshop talk, International Conference on Applied Mathematics, CityU of Hong Kong, 01-06-2024
+
+
+\item Workshop talk, {\bf PIERS24} @ Chengdu, 24-04-2024
+
+\item Workshop talk, Workshop on Efficient Numerical Methods for PDEs, Xiangtan Univerisity, 13-04-2004
+
+
+\item Seminar talk, Tianyuan Mathematical Center in Central China, Wuhan University, Nov 08, 2023
+\item Contributed talk, International Congress of Industrial and Applied Math, Tokyo, {\bf Japan}, Aug 20-25, 2023
+\item Seminar talk, Seminar on fast solvers for PDEs, Xiangtan University, Nov 12, 2023
+\item Seminar talk, Guangdong Province Key Laboratory of Computational Science, SYSU, June 16, 2023
+\item Seminar talk, Seminar on numerical PDEs, Zhejiang University, May 25, 2023
+\item Workshop talk, Annual Academic Conference of Guangdong Mathematical Society, Jan 06, 2023
+\item Poster, International Workshop On Mathematical Issues In Information Sciences, Dec 17, 2022
+\item Workshop talk, Forum on Mathematics and Interdisciplinary Sciences (SICIAM), Dec 14, 2022
+\item Workshop talk, CSIAM  TM32 Non-standard Finite Element Methods, Nov 20, 2022
+\item Seminar talk invited  by Prof. Xiaoxu Xu, Seminar at Xi’an Jiaotong University, Dec 08, 2022
+\item  Seminar talk, SSE Weekly Colloquium at CUHK-Shenzhen, Oct 28, 2022
+\item Seminar talk by Prof. Shuonan Wu, Seminar at Peking University, Oct 27, 2022
+%\item Undergraduate orientation, Sept 8, 2022
+\item Invited MS talk, International conference of Domain Decomposition Methods, Prague (mixed mode), July 25-29, 2022
+\item Workshop  talk, Seminar  "fast algorithms and applications of solvers", Chongqing  July 21, 2022
+\item Workshop talk, Huawei-CUHKSZ Workshop – Mathematical Problems in Industry, Shenzhen, July 08, 2022
+\item Seminar  talk invited by Yuwei Fan, Huawei Hong kong Theory Lab, May 22, 2022
+\item Seminar talk invited by Prof. Guanglian Li at The Hong Kong University, March 23, 2022
+
+
+\item Seminar talk invited by Prof. Chensong Zhang at LSEC, Academy of Math. and Systems Sci., Dec. 2021
+\item  Seminar talk invited by Prof. Ping Lin at School of Sci. and Eng., University of Dundee, {\bf UK}, Dec. 2021
+\item Contributed talk, SIAM Conference on Computational Science and Engineering, Online, Mar. 2021
+\item Contributed talk, the 26th International Domain Decomposition Conference, Online, Dec. 2020
+\item Seminar talk, LSEC, CAS, Beijing, Dec. 2019
+\item Seminar talk, CAM seminar, Peking University, Dec. 2019
+\item Contributed MS talk, DD26 Satellite Workshop, CUHK, Hong Kong, Dec. 2019 
+\item Contributed talk, Parallel Solution Methods for Systems Arising from PDEs, CIRM, {\bf Luminy}, Sept. 2019
+\item Contributed talk, WAVES 2019, TU Wien, Vienna, Aug. 2019
+\item Contributed talk, 28th Biennial Numerical Analysis Conference, University of Strathclyde, June, 2019
+\item Seminar  talk, Bath Numerical Analysis Seminar, University of Bath, Mar. 2019
+\item Workshop Joint Mathematics Meetings: Special Session on Numerical Methods for PDEs,  Baltimore, Jan. 2019
+\item Seminar talk, Inverse Problems and Analysis seminar, University of Delaware, Neward, Nov. 2018
+\item SIAM  PP18: Highly Scalable Solvers for Computational PDEs. Waseda University, Tokyo. Mar. 2018
+\item Seminar talk, High Performance Numerical Algorithms and Applications, TSIMF, Sanya, Jan. 2018
+\item The 15th Annual Meeting of CSIAM, Qindao, Oct. 2017
+\item Portable, Extensible Toolkit for Scientific Computation Annual Meetings, Boulder, USA, Jun. 2017
+\item The 18th Copper Mountain Conference on Multigrid Methods, Copper Mountain, USA, Mar. 2017
+\item The 9th National Finite Element Conference, E'mei, China, Aug. 2016
+\item The 14th Annual Meeting of CSIAM, Xiantan, Aug.2016
+\item Seminar talk at LSEC, Chinese Academy of Sciences, Beijing, Mar. 2016
+\item Seminar talk, CCMA PDEs and Numerical Methods Seminar, Penn State University, USA, Jan. 2016
+\item The 8th International Congress on Industrial and Applied Mathematics (ICIAM), Beijing, Aug. 2015
+%\item Workshop on Numerical Methods for Elasticity and MHD Problems, Peking University, Beijing, Dec. 2014.
+%\item Seminar on high performance computing with application in Biomedicine, Guangzhou, Dec. 2013.
+%\item Workshop on scientific computing with applications, Kunming, July 2013.
+\end{itemize}
+
+%\vspace{-.7cm}
+\section*{Skills}
+\begin{itemize}[leftmargin=*]
+\item \textbf{Programming}: Latex, C$\backslash$C++, Matlab, MPI, Boost, Python, \textbf{iFEM}, \textbf{FreeFEM++}, \textbf{FEniCS}, \textbf{PETSc}, Paraview, CMake, Gmesh, CUDA
+\item\textbf{Languages}: Cantonese, Mandarin, English
+
+\item \textbf{Hobby}: Cantonese cuisine, Swimming 
+\end{itemize}
+%\bigskip
+%%
+%%\vspace{-.5cm}
+%\section*{References}
+%%\vspace{-.5cm}
+%\begin{table}[h!]
+%\begin{tabular}{llll}
+% Professor Dr. \textbf{Xiao-Chuan Cai} 		&\qquad&\qquad &  \\
+%Faculty of Science and Technology	&\qquad &\qquad&  Phone: +853 8822-4464 \\
+% University of Macau, E11&\qquad &\qquad& Email: \href{mailto:xccai@um.edu.mo}{\tt xccai@um.edu.mo}   \\
+% Macau, China	&\qquad 	&\qquad&	Web: \url{https://www.fst.um.edu.mo/people/xccai/}\\
+% &\\[0.01pt]
+%  Professor Dr. \textbf{Ivan G. Graham}  (Postdoc Mentor)		&\qquad&\qquad &  \\
+% Department of Mathematical Sciences	&\qquad &\qquad&  Phone: +44 1225 386997\\
+% University of Bath&\qquad &\qquad& Email: \href{mailto:I.G.Graham@bath.ac.uk}{\tt  I.G.Graham@bath.ac.uk}   \\
+% Bath   BA2 7AY,   United Kingdom	&\qquad 	&\qquad&	Web: \url{https://people.bath.ac.uk/masigg/} \\
+% &\\[0.01pt]
+% \end{tabular}
+%\end{table}
+% \begin{table}[h]
+%\begin{tabular}{llll}
+% Professor Dr. \textbf{Jun Hu} 	(Ph.D. Thesis Advisor)	&\qquad&\qquad &  \\
+% School of Mathematical Sciences	&\qquad &\qquad&  Phone: +86 (010) 6275-7982\\
+% Peking University&\qquad &\qquad& Email: \href{mailto:hujun@math.pku.edu.cn}{\tt hujun@math.pku.edu.cn}   \\
+% Beijing, 100871, China	&\qquad 	&\qquad&	Web: \url{http://dsec.pku.edu.cn/~hujun/}\\
+% &\\[0.01pt]
+%%  Professor Dr. \textbf{Euan A. Spence}  (Postdoc Mentor)		&\qquad&\qquad &  \\
+%% Department of Mathematical Sciences	&\qquad &\qquad&  Phone: +44 1225 386978\\
+%% University of Bath&\qquad &\qquad& Email: \href{mailto:E.A.Spence@bath.ac.uk}{\tt  E.A.Spence@bath.ac.uk}   \\
+%% Bath   BA2 7AY,   United Kingdom	&\qquad 	&\qquad&	Web: \url{https://people.bath.ac.uk/eas25/} \\
+%% &\\[0.01pt]
+%  Professor Dr. \textbf{Jinchao Xu} 	(Postdoc Mentor)	&\qquad&\qquad &  \\
+%Department of Mathematics	&\qquad &\qquad&  Phone:+1 814-865-1110 \\
+% Pennsylvania State University&\qquad &\qquad& Email: \href{mailto:xu@math.psu.edu}{\tt xu@math.psu.edu}   \\
+% State College, PA 16802, USA	&\qquad 	&\qquad&	Web: \url{http://www.math.psu.edu/xu}\\
+% &\\[0.01pt]
+%  Professor Dr. \textbf{Jun Zou} 		&\qquad&\qquad &  \\
+% Department of Mathematics	&\qquad &\qquad&  Phone: +852 3943 7967\\
+% Chinese University of Hong Kong&\qquad &\qquad& Email: \href{mailto:zou@math.cuhk.edu.hk}{\tt zou@math.cuhk.edu.hk}   \\
+% Shatin, N.T., Hong Kong, China	&\qquad 	&\qquad&	Web: \url{https://www.math.cuhk.edu.hk/~zou/}\\
+%\end{tabular}
+%\end{table}
+
+
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}
